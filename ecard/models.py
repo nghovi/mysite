@@ -21,5 +21,6 @@ class Task(models.Model):
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
     priority = models.IntegerField(default=0)
+    status = models.IntegerField(default=0)
     date = models.DateTimeField('date created and done')
 
