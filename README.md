@@ -14,3 +14,6 @@ manage.py createsuperuser (vietnh90@gmail.com/admin/admin)
 
 error:django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
 solution: pip install mysql-python
+
+it could be a solution:
+http://stackoverflow.com/questions/9865621/connecting-to-ec2-django-development-server
