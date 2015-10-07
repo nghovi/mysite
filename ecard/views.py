@@ -4,13 +4,21 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 
 import json
+import logging
+# import bson
 from django.core import serializers
+from pprint import pprint
 
 
 from .models import Task
 from .models import Book
 from .models import UserPreference
 from .models import Link
+
+import utils;
+
+
+logger = logging.getLogger('mine')
 
 # Create your views here.
 def index(request):
@@ -25,22 +33,20 @@ def get_books(request):
 
 
 ########################### Task######################################
-def get_tasks(request):
-    # response2 = ""
-    # for key,value in request.META.items():
-    #     response2 += key
-    #     if type(value) is str:
-    #         response2 = response2 + ":" + value
-        # output = ', '.join([task.name for task in latest_task_list])
-    # return HttpResponse("You're requesting task list: <br/>" + output)
-    # In order to serialize objects other than dict you must set the safe parameter to False:
-    # return HttpResponse(response2)
 
+
+
+
+def get_tasks(request):
     latest_task_list = Task.objects.order_by('-date')[:5]
-    response = serializers.serialize("json", latest_task_list)
-    return JsonResponse(json.loads(response), safe=False)
+    data = utils.convert_models_to_tuple(latest_task_list)
+    rp = {'data' : data}
+    response = utils.get_json_obj_without_slash(rp)
+    logger.info(response)
+    return JsonResponse(response, safe=False)
 
 def add_task(request):
+
     return HttpResponse("sfsf")
 
 def delete_task(request, task_id):
