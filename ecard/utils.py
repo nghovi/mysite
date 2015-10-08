@@ -38,4 +38,5 @@ def get_json_obj_without_slash(obj):
     return json.loads(json_string)
 
 def dump(obj):
-     pprint (vars(record))
+     print ("Dump object " + str(obj) + ":\n")
+     pprint(vars(obj))

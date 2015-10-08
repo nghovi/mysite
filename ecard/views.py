@@ -14,6 +14,7 @@ from .models import Task
 from .models import Book
 from .models import UserPreference
 from .models import Link
+from datetime import datetime
 
 import utils;
 
@@ -43,11 +44,16 @@ def get_tasks(request):
     rp = {'data' : data}
     response = utils.get_json_obj_without_slash(rp)
     logger.info(response)
+    logger.info(utils.get_json_obj_without_slash(request.POST))
+    logger.info(utils.get_json_obj_without_slash(request.GET))
     return JsonResponse(response, safe=False)
 
 def add_task(request):
-
-    return HttpResponse("sfsf")
+    utils.dump(request.POST)
+    new_task = Task(name=request.POST.get('name'), description=request.POST.get('description'), date=datetime.strptime(request.POST.get('date'), '%a %b %d %H:%M:%S %Z %Y'))
+    new_task.save()
+    response = utils.get_json_obj_without_slash({'statusCd' : '1'})
+    return JsonResponse(response)
 
 def delete_task(request, task_id):
     return HttpResponse("You're going to delete task id " + task_id)
