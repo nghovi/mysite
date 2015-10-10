@@ -40,7 +40,7 @@ http://stackoverflow.com/questions/9865621/connecting-to-ec2-django-development-
 $python manage.py runserver 0.0.0.0:8000
 - post url to Django must end with a slash /
 - disable csrf
-
+- cannot git pull on ec2: open tcp port 443 at outbound
 
 
 refs:
