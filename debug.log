@@ -1,0 +1,574 @@
+{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
+{}
+{}
+Not Found: /favicon.ico
+Internal Server Error: /ecard/delete_task/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_task() got an unexpected keyword argument 'task_id'
+Internal Server Error: /ecard/delete_task/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_task() got an unexpected keyword argument 'task_id'
+Internal Server Error: /ecard/delete_task/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_task() got an unexpected keyword argument 'task_id'
+Not Found: /ecard/delete_task
+Not Found: /ecard/delete_task/
+Internal Server Error: /ecard/delete_task/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_task() got an unexpected keyword argument 'task_id'
+Not Found: /favicon.ico
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=1)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Not Found: /delete_task
+Not Found: /delete_task/
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=1)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=1)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=1)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
+{}
+{}
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=1)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 61, in delete_task
+    return HttpResponse("You're going to delete task id " + pk)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    utils.dump(response.POST)
+NameError: global name 'response' is not defined
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
+    return HttpResponse("You're going to delete task id " + pk)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
+    return HttpResponse("You're going to delete task id " + pk)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
+    return HttpResponse("You're going to delete task id " + pk)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
+    return HttpResponse("You're going to delete task id " + pk)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
+    import utils;
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 45
+    def build_response_from_queryset(queryset) {
+                                               ^
+SyntaxError: invalid syntax
+{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
+{}
+{}
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
+    import utils;
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 47
+    def build_json_obj_success:
+                              ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
+    import utils;
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 47
+    def build_json_obj_success:
+                              ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 34, in get_books
+    response = utils.build_json_obj_from_queryset(books);
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 41, in build_json_obj_from_queryset
+    records = convert_queryset_to_list(queryset)
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 24, in convert_queryset_to_list
+    for record in queryset:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 162, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 965, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 238, in iterator
+    results = compiler.execute_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 829, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 378, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 49, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 286, in get_order_by
+    field, self.query.get_meta(), default_order=asc))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 558, in find_ordering_name
+    field, targets, alias, joins, path, opts = self._setup_joins(pieces, opts, alias)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 591, in _setup_joins
+    pieces, opts, alias)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1471, in setup_joins
+    names, opts, allow_many, fail_on_missing=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1396, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'date' into field. Choices are: author, comment, id, link, link_id, name, pub_date
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in <module>
+    @logged_in_or_basicauth
+NameError: name 'logged_in_or_basicauth' is not defined
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 24, in <module>
+    @logged_in_or_basicauth
+NameError: name 'logged_in_or_basicauth' is not defined
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 24, in <module>
+    @logged_in_or_basicauth
+NameError: name 'logged_in_or_basicauth' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'function' object has no attribute 'get'
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 140, in <module>
+    @login_required
+NameError: name 'login_required' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 73, in <module>
+    @basicauth
+  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in basicauth
+    return wrapper(tws)
+NameError: global name 'tws' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 50, in wrapper
+    return view_or_basicauth(view_func, request, *args, **kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 44, in view_or_basicauth
+    response['WWW-Authenticate'] = 'Basic realm="%s"' % settings.BASIC_AUTH_REALM
+NameError: global name 'settings' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in wrapper
+    return view_or_basicauth(view_func, request, *args, **kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 29, in view_or_basicauth
+    utils.dump(reques.META)
+NameError: global name 'reques' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in wrapper
+    return view_or_basicauth(view_func, request, *args, **kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 29, in view_or_basicauth
+    utils.dump(request.META)
+  File "/home/vietnguyen/mysite/ecard/utils.py", line 38, in dump
+    pprint(vars(obj))
+TypeError: vars() argument must have __dict__ attribute
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 42, in <module>
+    @basicauth
+NameError: name 'basicauth' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
+    from . import views
+  File "/home/vietnguyen/mysite/ecard/views.py", line 43, in <module>
+    @basicauth
+NameError: name 'basicauth' is not defined

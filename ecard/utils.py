@@ -1,17 +1,12 @@
 from django.shortcuts import render
-
 from django.http import HttpResponse
 from django.http import JsonResponse
-
 import json
 from django.core import serializers
-
-
 from .models import Task
 from .models import Book
 from .models import UserPreference
 from .models import Link
-
 from pprint import pprint
 
 #This class for make datetime in model serializable
@@ -23,9 +18,10 @@ class ComplexEncoder(json.JSONEncoder):
             return str(obj)
 
 
-def convert_models_to_tuple(records):
+#Why? because json cannot serialize some special attribute in model object, like _state
+def convert_queryset_to_list(queryset):
     result = []
-    for record in records:
+    for record in queryset:
         new_record = {}
         for attr in vars(record):
             if attr != '_state':
@@ -40,3 +36,16 @@ def get_json_obj_without_slash(obj):
 def dump(obj):
      print ("Dump object " + str(obj) + ":\n")
      pprint(vars(obj))
+
+def build_json_obj_from_queryset(queryset):
+    records = convert_queryset_to_list(queryset)
+    response_dict = {'data' : records}
+    json_obj = get_json_obj_without_slash(response_dict)
+
+    return json_obj
+
+def build_json_obj_success():
+    response_dict = {'statusCode' : 1}
+    json_obj = get_json_obj_without_slash(response_dict)
+
+    return response_dict
