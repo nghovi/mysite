@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import models, migrations
+from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
@@ -16,6 +16,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('name', models.CharField(max_length=200)),
                 ('author', models.CharField(max_length=200)),
+                ('comment', models.CharField(default=b'', max_length=500)),
                 ('pub_date', models.DateTimeField(verbose_name=b'date published')),
             ],
         ),
@@ -26,6 +27,18 @@ class Migration(migrations.Migration):
                 ('url', models.CharField(max_length=200)),
                 ('description', models.CharField(max_length=300)),
                 ('status', models.IntegerField(default=0)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='Task',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=200)),
+                ('description', models.CharField(max_length=200)),
+                ('priority', models.IntegerField(default=0)),
+                ('status', models.IntegerField(default=0)),
+                ('date', models.DateTimeField(verbose_name=b'date updated')),
+                ('lastupdated', models.DateTimeField(verbose_name=b'date updated')),
             ],
         ),
         migrations.CreateModel(

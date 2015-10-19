@@ -30,7 +30,7 @@ def get_primary_card_info(request):
     return HttpResponse("todo")
 
 def get_books(request):
-    utils.dump(request.GET)
+    # utils.dump(request.GET)
     books = Book.objects.all()
     response = utils.build_json_obj_from_queryset(books);
 
@@ -40,22 +40,24 @@ def get_books(request):
 
 
 
-@basicauth
+# @basicauth
 def get_tasks(request):
-    utils.dump(request.GET)
+    # utils.dump(request.GET)
     latest_task_list = Task.objects.order_by('-date')[:5]
     response = utils.build_json_obj_from_queryset(latest_task_list);
 
     return JsonResponse(response, safe=False)
 
 def add_task(request):
-    new_task = Task(name=request.POST.get('name'), description=request.POST.get('description'), date=datetime.strptime(request.POST.get('date'), '%a %b %d %H:%M:%S %Z %Y'))
-    new_task.save()
+    new_task_string = request.POST.get('task')
+    print "new task is +++++++", new_task_string
+    # new_task = Task(name=request.POST.get('name'), description=request.POST.get('description'), date=datetime.strptime(request.POST.get('date'), '%a %b %d %H:%M:%S %Z %Y'))
+    # new_task.save()
     response = utils.build_json_obj_success()
     return JsonResponse(response)
 
 def delete_task(request):
-    utils.dump(request.POST)
+    # utils.dump(request.POST)
     pk = request.POST.get('id')
 
     deleted_task = Task.objects.get(pk=pk)
@@ -65,7 +67,7 @@ def delete_task(request):
     return JsonResponse(response)
 
 def update_status_task(request):
-    utils.dump(request.POST)
+    # utils.dump(request.POST)
     pk = request.POST.get('id')
     status = request.POST.get('status')
 
