@@ -32,7 +32,7 @@ def get_primary_card_info(request):
 def get_books(request):
     # utils.dump(request.GET)
     books = Book.objects.all()
-    response = utils.build_json_obj_from_queryset(books);
+    response = utils.build_obj_from_queryset(books);
 
     return JsonResponse(response, safe=False)
 
@@ -42,28 +42,42 @@ def get_books(request):
 
 # @basicauth
 def get_tasks(request):
-    # utils.dump(request.GET)
-    latest_task_list = Task.objects.order_by('-date')[:5]
-    response = utils.build_json_obj_from_queryset(latest_task_list);
+    utils.dump(request.GET)
+    # date = datetime.strptime("Tue Oct 20 09:26:38 GMT 2015",  '%a %b %d %H:%M:%S %Z %Y')
+    # latest_task_list = Task.objects.all().filter(date=date).order_by('-date')
+    latest_task_list = Task.objects.all().order_by('-date')
+    response = utils.build_obj_from_queryset(latest_task_list);
 
     return JsonResponse(response, safe=False)
 
 def add_task(request):
     new_task_string = request.POST.get('task')
-    print "new task is +++++++", new_task_string
-    # new_task = Task(name=request.POST.get('name'), description=request.POST.get('description'), date=datetime.strptime(request.POST.get('date'), '%a %b %d %H:%M:%S %Z %Y'))
-    # new_task.save()
+    logger.error(new_task_string)
+    jtask = json.loads(new_task_string);
+    date = datetime.strptime(jtask.get('date'), "%b %d, %Y %H:%M:%S %p")
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%b %d, %Y %H:%M:%S %p")
+    new_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
+    new_task.save()
+    response = utils.build_json_obj_success()
+    return JsonResponse(response)
+
+def edit_task(request):
+    new_task_string = request.POST.get('task')
+    logger.error(new_task_string)
+    jtask = json.loads(new_task_string);
+    date = datetime.strptime(jtask.get('date'), "%b %d, %Y %H:%M:%S %p")
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%b %d, %Y %H:%M:%S %p")
+    new_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
+    new_task.save()
     response = utils.build_json_obj_success()
     return JsonResponse(response)
 
 def delete_task(request):
     # utils.dump(request.POST)
     pk = request.POST.get('id')
-
     deleted_task = Task.objects.get(pk=pk)
     deleted_task.delete();
     response = utils.build_json_obj_success()
-
     return JsonResponse(response)
 
 def update_status_task(request):

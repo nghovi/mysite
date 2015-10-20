@@ -668,3 +668,270 @@ Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
     raise errorclass, errorvalue
 ProgrammingError: (1146, "Table 'ecard.django_session' doesn't exist")
+Not Found: /favicon.ico
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Internal Server Error: /ecard/update_status_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 74, in update_status_task
+    updated_task = Task.objects.get(pk=pk)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 55, in add_task
+    date = datetime.strptime(request.POST.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
+TypeError: must be string, not None
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
+    utils.dump(jtask)
+  File "C:\Python27\mysite\ecard\utils.py", line 38, in dump
+    pprint(vars(obj))
+TypeError: vars() argument must have __dict__ attribute
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
+    utils.dump(jtask)
+  File "C:\Python27\mysite\ecard\utils.py", line 38, in dump
+    pprint(vars(obj))
+TypeError: vars() argument must have __dict__ attribute
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:13:47 AM","description":"5555","lastupdated":"Oct 20, 2015 8:13:47 AM","name":"555","priority":1,"status":0,"id":8,"tableName":"TASK"}
+Not Found: /ecard/edit_task/
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 67, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
+    date = datetime.strptime(request.POST.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
+TypeError: must be string, not None
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:19:58 AM","description":"bbb","lastupdated":"Oct 20, 2015 8:19:58 AM","name":"bbbb","priority":1,"status":0,"id":10,"tableName":"TASK"}
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
+    date = datetime.strptime(jtask.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
+  File "C:\Python27\lib\_strptime.py", line 325, in _strptime
+    (data_string, format))
+ValueError: time data 'Oct 20, 2015 8:19:58 AM' does not match format "%b %d',' %Y %H:%M:%S %p"
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:31:37 AM","description":"aaa","lastupdated":"Oct 20, 2015 8:31:37 AM","name":"aaa","priority":1,"status":0,"id":11,"tableName":"TASK"}
+Internal Server Error: /ecard/add_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 58, in add_task
+    new_task = Task(pk=jtask.id, name=jtask.name, description=jtask.description, priority=jtask.priority, date=date, lastupdated=last_update, status=jtask.status)
+AttributeError: 'dict' object has no attribute 'id'
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+here===================
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+Not Found: /ecard/edit_task/
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
+{"date":"Oct 22, 2015 4:42:18 AM","description":"44","lastupdated":"Oct 22, 2015 4:42:18 AM","name":"33","priority":1,"status":0,"id":3,"tableName":"TASK"}
+{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:19:58 AM","description":"bbb","lastupdated":"Oct 20, 2015 8:19:58 AM","name":"bbbb","priority":1,"status":0,"id":10,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:31:37 AM","description":"aaa","lastupdated":"Oct 20, 2015 8:31:37 AM","name":"aaa","priority":1,"status":0,"id":11,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
+{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
+{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
+    date = datetime.strptime(jtask.get('date'),  '%a %b %d %H:%M:%S %Z %Y')
+NameError: global name 'jtask' is not defined
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
+    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
+TypeError: must be string, not None
+{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
+{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
+{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
+{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
+{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
+    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
+TypeError: must be string, not None
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
+    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
+TypeError: must be string, not None
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
+    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
+TypeError: must be string, not None
+Not Found: /ecard/get_cards/
+Not Found: /ecard/get_cards/
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_tasks() takes exactly 2 arguments (1 given)
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_tasks() takes exactly 2 arguments (1 given)
+Internal Server Error: /ecard/get_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_tasks() takes exactly 2 arguments (1 given)
+{"date":"Oct 19, 2015 10:03:04 AM","description":"aaa","lastupdated":"Oct 19, 2015 10:03:04 AM","name":"aaa","priority":1,"status":0,"id":14,"tableName":"TASK"}
+{"date":"Oct 23, 2015 10:04:35 AM","description":"sd","lastupdated":"Oct 23, 2015 10:04:35 AM","name":"sf","priority":1,"status":0,"id":15,"tableName":"TASK"}
+{"date":"Oct 23, 2015 10:05:46 AM","description":"sdfsdf","lastupdated":"Oct 23, 2015 10:05:46 AM","name":"sdff","priority":1,"status":0,"id":16,"tableName":"TASK"}
+{"date":"Oct 23, 2015 10:09:13 AM","description":"av","lastupdated":"Oct 23, 2015 10:09:13 AM","name":"av","priority":1,"status":0,"id":17,"tableName":"TASK"}
+{"date":"Oct 23, 2015 10:15:59 AM","description":"ffffff","lastupdated":"Oct 23, 2015 10:15:59 AM","name":"ffffff","priority":1,"status":0,"id":18,"tableName":"TASK"}
+{"date":"Oct 23, 2015 10:20:14 AM","description":"sfsfsf","lastupdated":"Oct 23, 2015 10:20:14 AM","name":"sfs","priority":1,"status":0,"id":19,"tableName":"TASK"}
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 79, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 79, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+Internal Server Error: /ecard/delete_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 79, in delete_task
+    deleted_task = Task.objects.get(pk=pk)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.

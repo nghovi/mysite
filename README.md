@@ -22,7 +22,7 @@ Create new model
 manage.py createsuperuser (vietnh90@gmail.com/admin/admin)
 
 -------------------------------------------------------------------------
-Tasks.objects.all() //return a QuerySet
+Tasks.objects.all().filter(date=date) //return a QuerySet
 objects: a manager called on table-level
 alt D: put cursor into address bar
 --------------------------------------------------------------------------
