@@ -13,7 +13,6 @@ urlpatterns = [
     url(r'^delete_task/$', views.delete_task, name='delete_task'),
     url(r'^add_task/$', views.add_task, name='add_task'),
     url(r'^edit_task/$', views.edit_task, name='edit_task'),
-    url(r'^update_status_task/$', views.update_status_task, name='update_status_task'),
 
     url(r'^get_books/$', views.get_books, name='get_books'),
 ]

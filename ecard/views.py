@@ -79,19 +79,3 @@ def delete_task(request):
     deleted_task.delete();
     response = utils.build_json_obj_success()
     return JsonResponse(response)
-
-def update_status_task(request):
-    # utils.dump(request.POST)
-    pk = request.POST.get('id')
-    status = request.POST.get('status')
-
-    updated_task = Task.objects.get(pk=pk)
-    updated_task.status = status
-    updated_task.save()
-    response = utils.build_json_obj_success()
-
-    return JsonResponse(response)
-
-
-
-
