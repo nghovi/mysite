@@ -32,8 +32,9 @@ def get_primary_card_info(request):
 def get_books(request):
     # utils.dump(request.GET)
     books = Book.objects.all()
+    for book in books:
+        book.link = book.booklink.url
     response = utils.build_obj_from_queryset(books);
-
     return JsonResponse(response, safe=False)
 
 ########################### Task######################################

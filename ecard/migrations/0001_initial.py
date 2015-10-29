@@ -14,10 +14,12 @@ class Migration(migrations.Migration):
             name='Book',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('name', models.CharField(max_length=200)),
+                ('iconUrl', models.CharField(max_length=200)),
                 ('author', models.CharField(max_length=200)),
+                ('name', models.CharField(max_length=200)),
+                ('vocabulary', models.CharField(max_length=1000)),
                 ('comment', models.CharField(default=b'', max_length=500)),
-                ('pub_date', models.DateTimeField(verbose_name=b'date published')),
+                ('mood', models.CharField(max_length=1000)),
             ],
         ),
         migrations.CreateModel(
@@ -51,7 +53,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='book',
-            name='link',
+            name='booklink',
             field=models.ForeignKey(to='ecard.Link'),
         ),
     ]

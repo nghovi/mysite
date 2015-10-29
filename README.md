@@ -8,6 +8,7 @@ First Django project
 #todo: python convention
 #todo: new shoe, new kindle
 #todo: http://thecodeship.com/patterns/guide-to-python-function-decorators/
+#todo: tool generate text from xml into strings.xml (huy's idea)
 
 
 -------------Command----------------------------------------------------
@@ -41,6 +42,7 @@ $python manage.py runserver 0.0.0.0:8000
 - post url to Django must end with a slash /
 - disable csrf
 - cannot git pull on ec2: open tcp port 443 at outbound
+- SugarRecord model's field should not be null before save.
 
 
 refs:

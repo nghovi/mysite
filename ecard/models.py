@@ -11,11 +11,13 @@ class UserPreference(models.Model):
     user_id = models.IntegerField('user id')
 
 class Book(models.Model):
-    name = models.CharField(max_length=200)
+    iconUrl = models.CharField(max_length=200)
     author = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
+    vocabulary = models.CharField(max_length=1000)
     comment = models.CharField(max_length=500, default='')
-    link = models.ForeignKey(Link)
-    pub_date = models.DateTimeField('date published')
+    mood = models.CharField(max_length=1000)
+    booklink = models.ForeignKey(Link)
 
 class Task(models.Model):
     name = models.CharField(max_length=200)
