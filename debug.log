@@ -1184,3 +1184,4 @@ Traceback (most recent call last):
     link = Link.objects.get(pk=book.link_id)
 AttributeError: 'Book' object has no attribute 'link_id'
 {"comment":"a","date":"Oct 29, 2015 7:43:59 AM","description":"a","lastupdated":"Oct 29, 2015 7:43:59 AM","name":"a","priority":1,"status":0,"id":1,"tableName":"TASK"}
+Not Found: /favicon.ico
