@@ -1,907 +1,45 @@
-{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
-{}
-{}
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":7}
+{"comment":"a","date":"2015-11-02 10:25:02+0000","description":"a","lastupdated":"2015-11-02 10:25:02+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 69, in edit_task
+    date = datetime.strptime(jtask.get('date'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 69, in edit_task
+    date = datetime.strptime(jtask.get('date'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
 Not Found: /favicon.ico
-Internal Server Error: /ecard/delete_task/1/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: delete_task() got an unexpected keyword argument 'task_id'
-Internal Server Error: /ecard/delete_task/1/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: delete_task() got an unexpected keyword argument 'task_id'
-Internal Server Error: /ecard/delete_task/1/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: delete_task() got an unexpected keyword argument 'task_id'
-Not Found: /ecard/delete_task
-Not Found: /ecard/delete_task/
-Internal Server Error: /ecard/delete_task/1/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: delete_task() got an unexpected keyword argument 'task_id'
-Not Found: /favicon.ico
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=1)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Not Found: /delete_task
-Not Found: /delete_task/
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=1)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=1)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=1)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
-{}
-{}
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=1)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 59, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 61, in delete_task
-    return HttpResponse("You're going to delete task id " + pk)
-TypeError: cannot concatenate 'str' and 'NoneType' objects
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    utils.dump(response.POST)
-NameError: global name 'response' is not defined
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
-    return HttpResponse("You're going to delete task id " + pk)
-TypeError: cannot concatenate 'str' and 'NoneType' objects
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
-    return HttpResponse("You're going to delete task id " + pk)
-TypeError: cannot concatenate 'str' and 'NoneType' objects
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
-    return HttpResponse("You're going to delete task id " + pk)
-TypeError: cannot concatenate 'str' and 'NoneType' objects
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 62, in delete_task
-    return HttpResponse("You're going to delete task id " + pk)
-TypeError: cannot concatenate 'str' and 'NoneType' objects
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
-    import utils;
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 45
-    def build_response_from_queryset(queryset) {
-                                               ^
-SyntaxError: invalid syntax
-{u'data': [{u'status': 0, u'description': u'Mediation is good for your health', u'priority': 0, u'date': u'2015-09-12 06:18:48+00:00', u'id': 6, u'name': u'Mediate 5 minute'}, {u'status': 0, u'description': u'Just a commit and you will save the zero-day', u'priority': 0, u'date': u'2015-09-12 06:15:33+00:00', u'id': 5, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'Keep going, boy', u'priority': 0, u'date': u'2015-09-11 06:14:54+00:00', u'id': 4, u'name': u'Make a commit for my application'}, {u'status': 0, u'description': u'Keep the momentum', u'priority': 0, u'date': u'2015-09-11 06:14:21+00:00', u'id': 3, u'name': u'Make a commit for my site'}, {u'status': 0, u'description': u'In order to improving my english. I should read at least one english article each day. I should read it completely, thoroughly', u'priority': 2, u'date': u'2015-09-10 06:05:50+00:00', u'id': 2, u'name': u'Read an english article'}]}
-{}
-{}
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
-    import utils;
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 47
-    def build_json_obj_success:
-                              ^
-SyntaxError: invalid syntax
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 19, in <module>
-    import utils;
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 47
-    def build_json_obj_success:
-                              ^
-SyntaxError: invalid syntax
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 58, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 34, in get_books
-    response = utils.build_json_obj_from_queryset(books);
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 41, in build_json_obj_from_queryset
-    records = convert_queryset_to_list(queryset)
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 24, in convert_queryset_to_list
-    for record in queryset:
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 162, in __iter__
-    self._fetch_all()
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 829, in execute_sql
-    sql, params = self.as_sql()
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 378, in as_sql
-    extra_select, order_by, group_by = self.pre_sql_setup()
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 49, in pre_sql_setup
-    order_by = self.get_order_by()
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 286, in get_order_by
-    field, self.query.get_meta(), default_order=asc))
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 558, in find_ordering_name
-    field, targets, alias, joins, path, opts = self._setup_joins(pieces, opts, alias)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 591, in _setup_joins
-    pieces, opts, alias)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1471, in setup_joins
-    names, opts, allow_many, fail_on_missing=True)
-  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1396, in names_to_path
-    "Choices are: %s" % (name, ", ".join(available)))
-FieldError: Cannot resolve keyword 'date' into field. Choices are: author, comment, id, link, link_id, name, pub_date
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in <module>
-    @logged_in_or_basicauth
-NameError: name 'logged_in_or_basicauth' is not defined
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 24, in <module>
-    @logged_in_or_basicauth
-NameError: name 'logged_in_or_basicauth' is not defined
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 24, in <module>
-    @logged_in_or_basicauth
-NameError: name 'logged_in_or_basicauth' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
-    response = middleware_method(request, response)
-  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
-    if response.get('X-Frame-Options', None) is not None:
-AttributeError: 'function' object has no attribute 'get'
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 140, in <module>
-    @login_required
-NameError: name 'login_required' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 73, in <module>
-    @basicauth
-  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in basicauth
-    return wrapper(tws)
-NameError: global name 'tws' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 50, in wrapper
-    return view_or_basicauth(view_func, request, *args, **kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 44, in view_or_basicauth
-    response['WWW-Authenticate'] = 'Basic realm="%s"' % settings.BASIC_AUTH_REALM
-NameError: global name 'settings' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in wrapper
-    return view_or_basicauth(view_func, request, *args, **kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 29, in view_or_basicauth
-    utils.dump(reques.META)
-NameError: global name 'reques' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 51, in wrapper
-    return view_or_basicauth(view_func, request, *args, **kwargs)
-  File "/home/vietnguyen/mysite/ecard/views.py", line 29, in view_or_basicauth
-    utils.dump(request.META)
-  File "/home/vietnguyen/mysite/ecard/utils.py", line 38, in dump
-    pprint(vars(obj))
-TypeError: vars() argument must have __dict__ attribute
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 42, in <module>
-    @basicauth
-NameError: name 'basicauth' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
-    self._urlconf_module = import_module(self.urlconf_name)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/mysite/urls.py", line 20, in <module>
-    url(r'^ecard/', include('ecard.urls')),
-  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
-    __import__(name)
-  File "/home/vietnguyen/mysite/ecard/urls.py", line 3, in <module>
-    from . import views
-  File "/home/vietnguyen/mysite/ecard/views.py", line 43, in <module>
-    @basicauth
-NameError: name 'basicauth' is not defined
-Not Found: /favicon.ico
-Internal Server Error: /ecard/add_task/
+{"comment":"a","date":"2015-11-02 10:25:02+0000","description":"a","lastupdated":"2015-11-02 10:25:02+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 52, in add_task
-    new_task = Task(name=request.POST.get('name'), description=request.POST.get('description'), date=datetime.strptime(request.POST.get('date'), '%a %b %d %H:%M:%S %Z %Y'))
-TypeError: must be string, not None
-Not Found: /favicon.ico
-Not Found: /admin/get_task
-Not Found: /admin/get_task/
-Not Found: /admin/get_task/
-Internal Server Error: /ecard/get_tasks/
+  File "C:\Python27\mysite\ecard\views.py", line 69, in edit_task
+    date = datetime.strptime(jtask.get('date'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 47, in get_tasks
-    response = utils.build_json_obj_from_queryset(latest_task_list);
-  File "C:\Python27\mysite\ecard\utils.py", line 41, in build_json_obj_from_queryset
-    records = convert_queryset_to_list(queryset)
-  File "C:\Python27\mysite\ecard\utils.py", line 24, in convert_queryset_to_list
-    for record in queryset:
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 162, in __iter__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 829, in execute_sql
-    sql, params = self.as_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 378, in as_sql
-    extra_select, order_by, group_by = self.pre_sql_setup()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 49, in pre_sql_setup
-    order_by = self.get_order_by()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 286, in get_order_by
-    field, self.query.get_meta(), default_order=asc))
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 558, in find_ordering_name
-    field, targets, alias, joins, path, opts = self._setup_joins(pieces, opts, alias)
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 591, in _setup_joins
-    pieces, opts, alias)
-  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1472, in setup_joins
-    names, opts, allow_many, fail_on_missing=True)
-  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1397, in names_to_path
-    "Choices are: %s" % (name, ", ".join(available)))
-FieldError: Cannot resolve keyword 'date' into field. Choices are: description, id, lastupdated, name, priority, status
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
-    response = middleware_method(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 72, in process_request
-    if request.user.is_authenticated():
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 225, in inner
-    self._setup()
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 365, in _setup
-    self._wrapped = self._setupfunc()
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 22, in <lambda>
-    request.user = SimpleLazyObject(lambda: get_user(request))
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 10, in get_user
-    request._cached_user = auth.get_user(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 167, in get_user
-    user_id = _get_user_session_key(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 59, in _get_user_session_key
-    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 48, in __getitem__
-    return self._session[key]
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 181, in _get_session
-    self._session_cache = self.load()
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\db.py", line 21, in load
-    expire_date__gt=timezone.now()
-  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 328, in get
-    num = len(clone)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 144, in __len__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 840, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\utils.py", line 97, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
-    return self.cursor.execute(query, args)
-  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-ProgrammingError: (1146, "Table 'ecard.django_session' doesn't exist")
-Not Found: /favicon.ico
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Internal Server Error: /ecard/update_status_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 74, in update_status_task
-    updated_task = Task.objects.get(pk=pk)
-  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 55, in add_task
-    date = datetime.strptime(request.POST.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
-TypeError: must be string, not None
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
-    utils.dump(jtask)
-  File "C:\Python27\mysite\ecard\utils.py", line 38, in dump
-    pprint(vars(obj))
-TypeError: vars() argument must have __dict__ attribute
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
-    utils.dump(jtask)
-  File "C:\Python27\mysite\ecard\utils.py", line 38, in dump
-    pprint(vars(obj))
-TypeError: vars() argument must have __dict__ attribute
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:13:47 AM","description":"5555","lastupdated":"Oct 20, 2015 8:13:47 AM","name":"555","priority":1,"status":0,"id":8,"tableName":"TASK"}
-Not Found: /ecard/edit_task/
-Internal Server Error: /ecard/delete_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 67, in delete_task
-    deleted_task = Task.objects.get(pk=pk)
-  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
-    self.model._meta.object_name
-DoesNotExist: Task matching query does not exist.
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
-    date = datetime.strptime(request.POST.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
-TypeError: must be string, not None
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:19:58 AM","description":"bbb","lastupdated":"Oct 20, 2015 8:19:58 AM","name":"bbbb","priority":1,"status":0,"id":10,"tableName":"TASK"}
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 56, in add_task
-    date = datetime.strptime(jtask.get('date'), '%b %d\',\' %Y %H:%M:%S %p')
-  File "C:\Python27\lib\_strptime.py", line 325, in _strptime
-    (data_string, format))
-ValueError: time data 'Oct 20, 2015 8:19:58 AM' does not match format "%b %d',' %Y %H:%M:%S %p"
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:31:37 AM","description":"aaa","lastupdated":"Oct 20, 2015 8:31:37 AM","name":"aaa","priority":1,"status":0,"id":11,"tableName":"TASK"}
-Internal Server Error: /ecard/add_task/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 58, in add_task
-    new_task = Task(pk=jtask.id, name=jtask.name, description=jtask.description, priority=jtask.priority, date=date, lastupdated=last_update, status=jtask.status)
-AttributeError: 'dict' object has no attribute 'id'
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-here===================
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-Not Found: /ecard/edit_task/
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:36:13 AM","description":"sss","lastupdated":"Oct 20, 2015 8:36:13 AM","name":"sss","priority":1,"status":0,"id":13,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:33:34 AM","description":"vvv","lastupdated":"Oct 20, 2015 8:33:34 AM","name":"vvv","priority":1,"status":0,"id":12,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
-{"date":"Oct 22, 2015 4:42:18 AM","description":"44","lastupdated":"Oct 22, 2015 4:42:18 AM","name":"33","priority":1,"status":0,"id":3,"tableName":"TASK"}
-{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:19:58 AM","description":"bbb","lastupdated":"Oct 20, 2015 8:19:58 AM","name":"bbbb","priority":1,"status":0,"id":10,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:31:37 AM","description":"aaa","lastupdated":"Oct 20, 2015 8:31:37 AM","name":"aaa","priority":1,"status":0,"id":11,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
-{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
-{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
-    date = datetime.strptime(jtask.get('date'),  '%a %b %d %H:%M:%S %Z %Y')
-NameError: global name 'jtask' is not defined
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
-    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
-TypeError: must be string, not None
-{"date":"Oct 20, 2015 4:37:54 AM","description":"bb","lastupdated":"Oct 20, 2015 4:37:54 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"date":"Oct 20, 2015 6:58:42 AM","description":"dd","lastupdated":"Oct 20, 2015 6:58:42 AM","name":"dd","priority":1,"status":0,"id":4,"tableName":"TASK"}
-{"date":"Oct 20, 2015 4:38:22 AM","description":"dd","lastupdated":"Oct 20, 2015 4:38:22 AM","name":"cc","priority":1,"status":1,"id":2,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:27:13 AM","description":"4222222","lastupdated":"Oct 20, 2015 7:27:13 AM","name":"2222222","priority":1,"status":0,"id":5,"tableName":"TASK"}
-{"date":"Oct 20, 2015 7:36:17 AM","description":"bbbb","lastupdated":"Oct 20, 2015 7:36:17 AM","name":"aaaaa","priority":1,"status":0,"id":6,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:07:24 AM","description":"66666","lastupdated":"Oct 20, 2015 8:07:24 AM","name":"6666","priority":1,"status":0,"id":7,"tableName":"TASK"}
-{"date":"Oct 20, 2015 8:14:41 AM","description":"xxxx","lastupdated":"Oct 20, 2015 8:14:41 AM","name":"xxxx","priority":1,"status":0,"id":9,"tableName":"TASK"}
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
-    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
-TypeError: must be string, not None
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
-    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
-TypeError: must be string, not None
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 46, in get_tasks
-    date = datetime.strptime(request.GET.get('targetDate'),  '%a %b %d %H:%M:%S %Z %Y')
-TypeError: must be string, not None
-Not Found: /ecard/get_cards/
-Not Found: /ecard/get_cards/
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: get_tasks() takes exactly 2 arguments (1 given)
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: get_tasks() takes exactly 2 arguments (1 given)
-Internal Server Error: /ecard/get_tasks/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: get_tasks() takes exactly 2 arguments (1 given)
-{"date":"Oct 19, 2015 10:03:04 AM","description":"aaa","lastupdated":"Oct 19, 2015 10:03:04 AM","name":"aaa","priority":1,"status":0,"id":14,"tableName":"TASK"}
-{"date":"Oct 23, 2015 10:04:35 AM","description":"sd","lastupdated":"Oct 23, 2015 10:04:35 AM","name":"sf","priority":1,"status":0,"id":15,"tableName":"TASK"}
-{"date":"Oct 23, 2015 10:05:46 AM","description":"sdfsdf","lastupdated":"Oct 23, 2015 10:05:46 AM","name":"sdff","priority":1,"status":0,"id":16,"tableName":"TASK"}
-{"date":"Oct 23, 2015 10:09:13 AM","description":"av","lastupdated":"Oct 23, 2015 10:09:13 AM","name":"av","priority":1,"status":0,"id":17,"tableName":"TASK"}
-{"date":"Oct 23, 2015 10:15:59 AM","description":"ffffff","lastupdated":"Oct 23, 2015 10:15:59 AM","name":"ffffff","priority":1,"status":0,"id":18,"tableName":"TASK"}
-{"date":"Oct 23, 2015 10:20:14 AM","description":"sfsfsf","lastupdated":"Oct 23, 2015 10:20:14 AM","name":"sfs","priority":1,"status":0,"id":19,"tableName":"TASK"}
+  File "C:\Python27\mysite\ecard\views.py", line 69, in edit_task
+    date = datetime.strptime(jtask.get('date'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
 Internal Server Error: /ecard/delete_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
@@ -913,6 +51,56 @@ Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
     self.model._meta.object_name
 DoesNotExist: Task matching query does not exist.
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 69, in edit_task
+    date = datetime.strptime(jtask.get('date'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 70, in edit_task
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 70, in edit_task
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 70, in edit_task
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
+{"comment":"a","date":"2015-11-03 01:39:12+0000","description":"a","lastupdated":"2015-11-03 01:39:12+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 70, in edit_task
+    last_update= datetime.strptime(jtask.get('lastupdated'), "%Y-%m-%d %H:%M:%S")
+  File "C:\Python27\lib\_strptime.py", line 328, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: +0000
 Internal Server Error: /ecard/delete_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
@@ -924,6 +112,8 @@ Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
     self.model._meta.object_name
 DoesNotExist: Task matching query does not exist.
+{"date":"2015-11-02 08:54:05+0000","description":"Go home early, it\u0027s Monday. Working late on the first day of week can lead into really hard week","lastupdated":"2015-11-02 08:54:08+0000","name":"Go home early","priority":2,"status":1,"id":2}
+{"date":"2015-11-02 08:54:05+0000","description":"Go home early, it\u0027s Monday. Working late on the first day of week can lead into really hard week","lastupdated":"2015-11-02 08:54:08+0000","name":"Go home early","priority":2,"status":1,"id":3}
 Internal Server Error: /ecard/delete_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
@@ -935,253 +125,237 @@ Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
     self.model._meta.object_name
 DoesNotExist: Task matching query does not exist.
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-{"comment":"cc","date":"Oct 29, 2015 4:16:06 AM","description":"bb","lastupdated":"Oct 29, 2015 4:16:06 AM","name":"aa","priority":1,"status":0,"id":1,"tableName":"TASK"}
-{"comment":"bb","date":"Oct 29, 2015 4:16:12 AM","description":"bb","lastupdated":"Oct 29, 2015 4:16:12 AM","name":"bb","priority":1,"status":0,"id":2,"tableName":"TASK"}
-{"comment":"ee","date":"Oct 29, 2015 4:16:21 AM","description":"dd","lastupdated":"Oct 29, 2015 4:16:21 AM","name":"cc","priority":1,"status":0,"id":3,"tableName":"TASK"}
-Not Found: /get_books/
-Internal Server Error: /ecard/get_books/
+{"date":"2015-11-02 08:55:42+0000","description":"Try to eat healthy food, walking around, drink enough water","lastupdated":"2015-11-02 08:55:42+0000","name":"Be healthy and beautiful","priority":3,"status":1,"id":1}
+{"date":"2015-11-02 08:55:42+0000","description":"Try to eat healthy food, walking around, drink enough water","lastupdated":"2015-11-02 08:55:42+0000","name":"Be healthy and beautiful","priority":3,"status":0,"id":10}
+{"date":"2015-11-02 08:54:05+0000","description":"Go home early, it\u0027s Monday. Working late on the first day of week can lead into really hard week","lastupdated":"2015-11-02 08:54:08+0000","name":"Go home early","priority":2,"status":0,"id":11}
+{"date":"2015-11-02 08:54:05+0000","description":"Go home early, it\u0027s Monday. Working late on the first day of week can lead into really hard week","lastupdated":"2015-11-02 08:54:08+0000","name":"Go home early","priority":2,"status":1,"id":17}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":0,"id":21}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 36, in get_books
-    link = Link.objects.all.filter(id=book.link_id)
-AttributeError: 'function' object has no attribute 'filter'
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 37, in get_books
-    book.link = link.url
-AttributeError: 'QuerySet' object has no attribute 'url'
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 37, in get_books
-    book.link = link.url
-AttributeError: 'QuerySet' object has no attribute 'url'
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 37, in get_books
-    book.link = link.url
-  File "C:\Python27\lib\site-packages\django\db\models\fields\related.py", line 629, in __set__
-    self.field.rel.to._meta.object_name,
-ValueError: Cannot assign "u'sdfslfjsdlkf'": "Book.link" must be a "Link" instance.
-Internal Server Error: /ecard/get_books/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 38, in get_books
-    book.link = link.url
-  File "C:\Python27\lib\site-packages\django\db\models\fields\related.py", line 629, in __set__
-    self.field.rel.to._meta.object_name,
-ValueError: Cannot assign "u'sdfslfjsdlkf'": "Book.link" must be a "Link" instance.
-Internal Server Error: /admin/ecard/book/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
-    return self.admin_site.admin_view(view)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
-    response = view_func(request, *args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
-    response = view_func(request, *args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
-    return view(request, *args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
-    return bound_func(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
-    response = view_func(request, *args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
-    return func.__get__(self, type(self))(*args2, **kwargs2)
-  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1655, in changelist_view
-    selection_note=_('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 144, in __len__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 840, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\utils.py", line 97, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
-    return self.cursor.execute(query, args)
-  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-OperationalError: (1054, "Unknown column 'ecard_book.booklink_id' in 'field list'")
-Internal Server Error: /admin/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
-    response = middleware_method(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 72, in process_request
-    if request.user.is_authenticated():
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 225, in inner
-    self._setup()
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 365, in _setup
-    self._wrapped = self._setupfunc()
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 22, in <lambda>
-    request.user = SimpleLazyObject(lambda: get_user(request))
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 10, in get_user
-    request._cached_user = auth.get_user(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 167, in get_user
-    user_id = _get_user_session_key(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 59, in _get_user_session_key
-    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 48, in __getitem__
-    return self._session[key]
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 181, in _get_session
-    self._session_cache = self.load()
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\db.py", line 21, in load
-    expire_date__gt=timezone.now()
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
   File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 328, in get
-    num = len(clone)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 144, in __len__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 840, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\utils.py", line 97, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
-    return self.cursor.execute(query, args)
-  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-ProgrammingError: (1146, "Table 'ecard.django_session' doesn't exist")
-Internal Server Error: /admin/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
-    response = middleware_method(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 72, in process_request
-    if request.user.is_authenticated():
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 225, in inner
-    self._setup()
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 365, in _setup
-    self._wrapped = self._setupfunc()
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 22, in <lambda>
-    request.user = SimpleLazyObject(lambda: get_user(request))
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 10, in get_user
-    request._cached_user = auth.get_user(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 167, in get_user
-    user_id = _get_user_session_key(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 59, in _get_user_session_key
-    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 48, in __getitem__
-    return self._session[key]
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 181, in _get_session
-    self._session_cache = self.load()
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\db.py", line 21, in load
-    expire_date__gt=timezone.now()
-  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 328, in get
-    num = len(clone)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 144, in __len__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 840, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\utils.py", line 97, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
-    return self.cursor.execute(query, args)
-  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-ProgrammingError: (1146, "Table 'ecard.django_session' doesn't exist")
-Internal Server Error: /admin/
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
-    response = middleware_method(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 72, in process_request
-    if request.user.is_authenticated():
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 225, in inner
-    self._setup()
-  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 365, in _setup
-    self._wrapped = self._setupfunc()
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 22, in <lambda>
-    request.user = SimpleLazyObject(lambda: get_user(request))
-  File "C:\Python27\lib\site-packages\django\contrib\auth\middleware.py", line 10, in get_user
-    request._cached_user = auth.get_user(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 167, in get_user
-    user_id = _get_user_session_key(request)
-  File "C:\Python27\lib\site-packages\django\contrib\auth\__init__.py", line 59, in _get_user_session_key
-    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 48, in __getitem__
-    return self._session[key]
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\base.py", line 181, in _get_session
-    self._session_cache = self.load()
-  File "C:\Python27\lib\site-packages\django\contrib\sessions\backends\db.py", line 21, in load
-    expire_date__gt=timezone.now()
-  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 328, in get
-    num = len(clone)
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 144, in __len__
-    self._fetch_all()
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 965, in _fetch_all
-    self._result_cache = list(self.iterator())
-  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 238, in iterator
-    results = compiler.execute_sql()
-  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 840, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\utils.py", line 97, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
-    return self.cursor.execute(query, args)
-  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-ProgrammingError: (1146, "Table 'ecard.django_session' doesn't exist")
-Internal Server Error: /ecard/get_books/
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":24}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Python27\mysite\ecard\views.py", line 36, in get_books
-    link = Link.objects.get(pk=book.link_id)
-AttributeError: 'Book' object has no attribute 'link_id'
-{"comment":"a","date":"Oct 29, 2015 7:43:59 AM","description":"a","lastupdated":"Oct 29, 2015 7:43:59 AM","name":"a","priority":1,"status":0,"id":1,"tableName":"TASK"}
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":21}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":0,"id":24}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":24}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"comment":"b","date":"2015-11-03 08:30:18+0000","description":"b","lastupdated":"2015-11-03 08:30:18+0000","name":"b","priority":1,"status":0,"id":34}
+{"comment":"a","date":"2015-11-03 08:29:17+0000","description":"a","lastupdated":"2015-11-03 08:29:17+0000","name":"a","priority":1,"status":1,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"comment":"b","date":"2015-11-03 08:30:18+0000","description":"b","lastupdated":"2015-11-03 08:30:18+0000","name":"b","priority":1,"status":0,"id":0}
+Internal Server Error: /ecard/edit_task/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 72, in edit_task
+    new_task.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 973, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 931, in as_sql
+    for obj in self.query.objs
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 978, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\operations.py", line 137, in validate_autopk_value
+    raise ValueError('The database backend does not accept 0 as a '
+ValueError: The database backend does not accept 0 as a value for AutoField.
+{"comment":"a","date":"2015-11-04 08:33:44+0000","description":"a","lastupdated":"2015-11-04 08:33:44+0000","name":"a","priority":1,"status":0,"id":38}
+{"comment":"vvv","date":"2015-11-05 08:36:12+0000","description":"vvv","lastupdated":"2015-11-05 08:36:12+0000","name":"vvv","priority":1,"status":0,"id":40}
+{"comment":"xxxxxx","date":"2015-11-06 08:43:50+0000","description":"xxxxxx","lastupdated":"2015-11-06 08:43:50+0000","name":"xxxxxx","priority":1,"status":0,"id":42}
+{"comment":"a","date":"2015-11-03 08:46:44+0000","description":"a","lastupdated":"2015-11-03 08:46:44+0000","name":"a","priority":1,"status":0,"id":1}
+{"comment":"a","date":"2015-11-03 08:53:34+0000","description":"a","lastupdated":"2015-11-03 08:53:34+0000","name":"a","priority":1,"status":0,"id":1}
+{"comment":"a","date":"2015-11-03 08:58:56+0000","description":"a","lastupdated":"2015-11-03 08:58:56+0000","name":"a","priority":1,"status":0,"id":1}
+{"comment":"la la la","date":"2015-11-04 04:31:18+0000","description":"I love my house","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":0}
+{"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"2","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":1}
+{"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"2","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":1}
 Not Found: /favicon.ico
+{"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"2","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":1}
+{"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"3","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":0}
+{"comment":"","date":"2015-11-03 08:58:56+0000","description":"haha","id":"1","lastupdated":"2015-11-03 08:58:56+0000","name":"wtf","priority":1,"status":0}
+{"date":"2015-11-03 08:58:56+0000","description":"haha","id":"1","lastupdated":"2015-11-03 08:58:56+0000","name":"wtf","priority":1,"status":1}

@@ -48,15 +48,20 @@ def get_tasks(request):
     # latest_task_list = Task.objects.all().filter(date=date).order_by('-date')
     latest_task_list = Task.objects.all().order_by('-date')
     response = utils.build_obj_from_queryset(latest_task_list);
+    return JsonResponse(response, safe=False)
 
+def get_unfinished_tasks(request):
+    utils.dump(request.GET)
+    latest_task_list = Task.objects.all().filter(status=0).order_by('-date')
+    response = utils.build_obj_from_queryset(latest_task_list);
     return JsonResponse(response, safe=False)
 
 def add_task(request):
     new_task_string = request.POST.get('task')
     logger.error(new_task_string)
     jtask = json.loads(new_task_string);
-    date = datetime.strptime(jtask.get('date'), "%b %d, %Y %H:%M:%S %p")
-    last_update= datetime.strptime(jtask.get('lastupdated'), "%b %d, %Y %H:%M:%S %p")
+    date = datetime.strptime(jtask.get('date')[:-5], "%Y-%m-%d %H:%M:%S")
+    last_update= datetime.strptime(jtask.get('lastupdated')[:-5], "%Y-%m-%d %H:%M:%S")
     new_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
     new_task.save()
     response = utils.build_json_obj_success()
@@ -66,10 +71,10 @@ def edit_task(request):
     new_task_string = request.POST.get('task')
     logger.error(new_task_string)
     jtask = json.loads(new_task_string);
-    date = datetime.strptime(jtask.get('date'), "%b %d, %Y %H:%M:%S %p")
-    last_update= datetime.strptime(jtask.get('lastupdated'), "%b %d, %Y %H:%M:%S %p")
-    new_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
-    new_task.save()
+    date = datetime.strptime(jtask.get('date')[:-5], "%Y-%m-%d %H:%M:%S")
+    last_update= datetime.strptime(jtask.get('lastupdated')[:-5], "%Y-%m-%d %H:%M:%S")
+    updated_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
+    updated_task.save()
     response = utils.build_json_obj_success()
     return JsonResponse(response)
 

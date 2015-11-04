@@ -9,6 +9,7 @@ First Django project
 #todo: new shoe, new kindle
 #todo: http://thecodeship.com/patterns/guide-to-python-function-decorators/
 #todo: tool generate text from xml into strings.xml (huy's idea)
+#todo: get request with simple arg
 
 
 -------------Command----------------------------------------------------
