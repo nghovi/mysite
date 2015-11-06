@@ -359,3 +359,444 @@ Not Found: /favicon.ico
 {"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"3","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":0}
 {"comment":"","date":"2015-11-03 08:58:56+0000","description":"haha","id":"1","lastupdated":"2015-11-03 08:58:56+0000","name":"wtf","priority":1,"status":0}
 {"date":"2015-11-03 08:58:56+0000","description":"haha","id":"1","lastupdated":"2015-11-03 08:58:56+0000","name":"wtf","priority":1,"status":1}
+{"date":"2015-11-04 04:31:18+0000","description":"I love my house","id":"4","lastupdated":"2015-11-04 04:31:18+0000","name":"Go home early","priority":1,"status":0}
+{"comment":"I\u0027ve done  this","date":"2015-11-04 10:18:30+0000","description":"Draw a commit to keep momentum for my projects","lastupdated":"2015-11-04 10:18:30+0000","name":"Draw a commit","priority":1,"status":0}
+{"comment":"","date":"2015-11-05 10:19:46+0000","description":"Keep your health, Go home early and walk around. Remember to turn off your wifi","lastupdated":"2015-11-05 10:19:46+0000","name":"Go home early","priority":2,"status":0}
+{"date":"2015-11-04 10:18:30+0000","description":"Draw a commit to keep momentum for my projects","id":"5","lastupdated":"2015-11-04 10:18:30+0000","name":"Draw a commit","priority":1,"status":1}
+{"comment":"","date":"2015-11-05 10:26:48+0000","description":"Close your eye and mediate for just 2 minutes. Love your window of soul!","lastupdated":"2015-11-05 10:26:48+0000","name":"Mediation","priority":1,"status":0}
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 46, in add_book
+    jbook = json.loads(new_book_string);
+  File "C:\Python27\lib\json\__init__.py", line 310, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 346, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 364, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 47, in add_book
+    updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=jbook.get("booklink"),mood=jbook.get("mood"))
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 468, in __init__
+    setattr(self, field.name, rel_obj)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\related.py", line 621, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Book.booklink" does not allow null values.
+Internal Server Error: /ecard/get_unfinished_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 51
+    link = new Link(url="http://google.com.vn")
+                  ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 51
+    link = new Link(url="http://google.com.vn")
+                  ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/get_unfinished_tasks/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 51
+    link = new Link(url="http://google.com.vn")
+                  ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 51
+    link = new Link(url="http://google.com.vn")
+                  ^
+SyntaxError: invalid syntax
+Internal Server Error: /ecard/get_books/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 51
+    link = new Link(url="http://google.com.vn")
+                  ^
+SyntaxError: invalid syntax

@@ -17,4 +17,6 @@ urlpatterns = [
     url(r'^edit_task/$', views.edit_task, name='edit_task'),
 
     url(r'^get_books/$', views.get_books, name='get_books'),
+    url(r'^add_book/$', views.add_book, name='add_book'),
+    url(r'^edit_book/$', views.edit_book, name='edit_book'),
 ]

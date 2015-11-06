@@ -37,6 +37,24 @@ def get_books(request):
     response = utils.build_obj_from_queryset(books);
     return JsonResponse(response, safe=False)
 
+def edit_book(request):
+    return add_book(request)
+
+def add_book(request):
+    new_book_string = request.POST.get('book')
+    # logger.error(new_book_string)
+    jbook = json.loads(new_book_string);
+    old_book = Book.objects.get(pk=jbook.get("id"))
+    if old_book:
+        link = old_book.link
+    else:
+        link = Link(url="http://google.com.vn")
+    updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+    updated_book.save()
+    response = utils.build_json_obj_success()
+    return JsonResponse(response)
+
+
 ########################### Task######################################
 
 
@@ -58,7 +76,7 @@ def get_unfinished_tasks(request):
 
 def add_task(request):
     new_task_string = request.POST.get('task')
-    logger.error(new_task_string)
+    # logger.error(new_task_string)
     jtask = json.loads(new_task_string);
     date = datetime.strptime(jtask.get('date')[:-5], "%Y-%m-%d %H:%M:%S")
     last_update= datetime.strptime(jtask.get('lastupdated')[:-5], "%Y-%m-%d %H:%M:%S")
@@ -68,15 +86,7 @@ def add_task(request):
     return JsonResponse(response)
 
 def edit_task(request):
-    new_task_string = request.POST.get('task')
-    logger.error(new_task_string)
-    jtask = json.loads(new_task_string);
-    date = datetime.strptime(jtask.get('date')[:-5], "%Y-%m-%d %H:%M:%S")
-    last_update= datetime.strptime(jtask.get('lastupdated')[:-5], "%Y-%m-%d %H:%M:%S")
-    updated_task = Task(pk=jtask.get("id"), name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
-    updated_task.save()
-    response = utils.build_json_obj_success()
-    return JsonResponse(response)
+    return add_task(request)
 
 def delete_task(request):
     # utils.dump(request.POST)
