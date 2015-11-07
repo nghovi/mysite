@@ -10,6 +10,7 @@ First Django project
 #todo: http://thecodeship.com/patterns/guide-to-python-function-decorators/
 #todo: tool generate text from xml into strings.xml (huy's idea)
 #todo: get request with simple arg
+#todo: Using map words for Book, create simple function like buildVocabularyString, buildWords
 
 
 -------------Command----------------------------------------------------

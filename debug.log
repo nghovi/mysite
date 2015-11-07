@@ -800,3 +800,110 @@ Traceback (most recent call last):
     link = new Link(url="http://google.com.vn")
                   ^
 SyntaxError: invalid syntax
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"aaa,shovel,lizard,crate,donkey,reptile,odor,onion,"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"bbb,aaa,shovel,lizard,crate,donkey,reptile,odor,onion,"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"aaa,shovel,lizard,crate,donkey,reptile,odor,onion,"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Cynthia Rylant","comment":"Short, light story about family love. \"Summer\", \"May\", \"Ob\", \"Cletus\" were beautiful names","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Missing_May.jpg/220px-Missing_May.jpg","link":"https://en.wikipedia.org/wiki/Missing_May","mood":"Love your loveones","name":"Missing May","vocabulary":"aaa,trailer,consolation,hoist,sharpnel,thigh,twig,snap"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Khaled Hosseini","comment":"Some kind of shocking feeling. I have a first look at some remote lands like Afgha","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Kite_runner.jpg/220px-Kite_runner.jpg","link":"https://en.wikipedia.org/wiki/The_Kite_Runner","mood":"Life is full of stunning story","name":"The Kite Runner","vocabulary":"crisp[aaa],breeze,vault,intricate,mosaic,creek (noun,water),elope,congenital,perpetually,polio,mold(the world),acne,gruff,coarse,abundantly,shred,bleak,toss,hurl,valiant,impeccable,mischief,seduce,scramble,weep,bead,bolt,flank,refrain,snicker,tuck, armpit,ironic,crunch,thaw,covet,trot,scuttle,adjacent,flush ( ~blush),shierk,gnarle,havoc, discard,thwart,limp,mumble,motto,slaughter"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Lois Lowry","comment":"Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"5","link":"https://en.wikipedia.org/wiki/Number_the_Stars","mood":"Be Brave","name":"Number the Stars","vocabulary":"aaa,fiance,throne,herb,slap,trudge,scold,sabotage,stern,sputter or splutter,bellow,ponder,deftly,tug,bucket,frothy,wrinkle,meadow,dismay,attic,leap,dart,heap,snarl,leash"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 41, in edit_book
+    return add_book(request)
+  File "/home/vietnguyen/mysite/ecard/views.py", line 49, in add_book
+    link = old_book.link
+AttributeError: 'Book' object has no attribute 'link'
+{"author":"Lois Lowry","comment":"Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"5","link":"https://en.wikipedia.org/wiki/Number_the_Stars","mood":"Be Brave","name":"Number the Stars","vocabulary":"aaee,aaa,fiance,throne,herb,slap,trudge,scold,sabotage,stern,sputter or splutter,bellow,ponder,deftly,tug,bucket,frothy,wrinkle,meadow,dismay,attic,leap,dart,heap,snarl,leash"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"now,shovel,lizard,crate,donkey,reptile,odor,onion,"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"now[go to drink now, lol],shovel,lizard,crate,donkey,reptile,odor,onion,"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"AAA,now[go to drink now, lol],shovel,lizard,crate,donkey,reptile,odor,onion,"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"AAA[phrase1],now[go to drink now, lol],shovel,lizard,crate,donkey,reptile,odor,onion,"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"AAA[phrase1],now[HAHA;go to drink now, lol],shovel,lizard,crate,donkey,reptile,odor,onion,"}
+{"author":" Lois Lowry","comment":"Kira is a strong and talent girl despite her leg trouble. From amazon: \"As she did in The Giver and later Messenger, in Gathering Blue Lois Lowry challenges readers to imagine what our world could become, how people could evolve, and what could be considered valuable\"","iconUrl":"https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg","id":"2","link":"https://en.wikipedia.org/wiki/Gathering_Blue","mood":"Everyone is special","name":"Gathering Blue","vocabulary":"tend^^^^Weeds had gone untended while his wife had neared her time, given birth then died$$$$@@@@flourish@@@@agony@@@@weave@@@@dye@@@@defiant@@@@kettle@@@@mug@@@@ominous@@@@stalk"}
+{"author":"Karen Cushman","comment":"wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.","iconUrl":"http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg","id":"3","link":"https://en.wikipedia.org/wiki/The_Midwife\u0027s_Apprentice","mood":"Life","name":"Midwife\u0027s Apprentice","vocabulary":"dung^^^^Something like Max\u0027s excrement :D$$$$@@@@midwife@@@@apprentice"}
+{"author":"Karen Cushman","comment":"wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.","iconUrl":"http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg","id":"3","link":"https://en.wikipedia.org/wiki/The_Midwife\u0027s_Apprentice","mood":"Life","name":"Midwife\u0027s Apprentice","vocabulary":"dung^^^^Something like Max\u0027s excrement :D$$$$@@@@midwife@@@@apprentice"}
+{"author":"Karen Cushman","comment":"wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.","iconUrl":"http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg","id":"3","link":"https://en.wikipedia.org/wiki/The_Midwife\u0027s_Apprentice","mood":"Life","name":"Midwife\u0027s Apprentice","vocabulary":"dung^^^^Something like Max\u0027s excrement :D$$$$@@@@midwife@@@@apprentice"}
+{"author":"Lois Lowry","comment":"Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"5","link":"https://en.wikipedia.org/wiki/Number_the_Stars","mood":"Be Brave","name":"Number the Stars","vocabulary":"fiance@@@@throne@@@@herb@@@@slap@@@@trudge@@@@scold@@@@sabotage@@@@stern@@@@sputter or splutter@@@@bellow@@@@ponder@@@@deftly@@@@tug@@@@bucket@@@@frothy@@@@wrinkle@@@@meadow@@@@dismay@@@@attic@@@@leap@@@@dart@@@@heap@@@@snarl@@@@leash"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"Test@@@@shovel@@@@lizard@@@@crate@@@@donkey@@@@reptile@@@@odor@@@@onion"}

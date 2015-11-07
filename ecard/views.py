@@ -42,11 +42,11 @@ def edit_book(request):
 
 def add_book(request):
     new_book_string = request.POST.get('book')
-    # logger.error(new_book_string)
+    logger.error(new_book_string)
     jbook = json.loads(new_book_string);
     old_book = Book.objects.get(pk=jbook.get("id"))
     if old_book:
-        link = old_book.link
+        link = old_book.booklink
     else:
         link = Link(url="http://google.com.vn")
     updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.44, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.46, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: ecard
 -- ------------------------------------------------------
--- Server version	5.5.44-0ubuntu0.14.04.1
+-- Server version	5.5.46-0ubuntu0.14.04.2
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -53,8 +53,8 @@ CREATE TABLE `auth_group_permissions` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `group_id` (`group_id`,`permission_id`),
   KEY `auth_group__permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id` (`permission_id`),
-  CONSTRAINT `auth_group__permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`),
-  CONSTRAINT `auth_group_permission_group_id_689710a9a73b7457_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`)
+  CONSTRAINT `auth_group_permission_group_id_689710a9a73b7457_fk_auth_group_id` FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`),
+  CONSTRAINT `auth_group__permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -171,8 +171,8 @@ CREATE TABLE `auth_user_user_permissions` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_id` (`user_id`,`permission_id`),
   KEY `auth_user_u_permission_id_384b62483d7071f0_fk_auth_permission_id` (`permission_id`),
-  CONSTRAINT `auth_user_u_permission_id_384b62483d7071f0_fk_auth_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`),
-  CONSTRAINT `auth_user_user_permissi_user_id_7f0938558328534a_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`)
+  CONSTRAINT `auth_user_user_permissi_user_id_7f0938558328534a_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`),
+  CONSTRAINT `auth_user_u_permission_id_384b62483d7071f0_fk_auth_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -206,7 +206,7 @@ CREATE TABLE `django_admin_log` (
   KEY `django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id` (`user_id`),
   CONSTRAINT `django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`),
   CONSTRAINT `djang_content_type_id_697914295151027a_fk_django_content_type_id` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -215,7 +215,7 @@ CREATE TABLE `django_admin_log` (
 
 LOCK TABLES `django_admin_log` WRITE;
 /*!40000 ALTER TABLE `django_admin_log` DISABLE KEYS */;
-INSERT INTO `django_admin_log` VALUES (1,'2015-10-31 07:58:35','1','Link object',1,'',7,1),(2,'2015-10-31 08:05:15','1','Book object',1,'',9,1),(3,'2015-10-31 08:08:02','2','Link object',1,'',7,1),(4,'2015-10-31 08:13:22','2','Book object',1,'',9,1),(5,'2015-10-31 08:20:25','3','Link object',1,'',7,1),(6,'2015-10-31 08:20:27','3','Book object',1,'',9,1),(7,'2015-10-31 08:22:21','4','Link object',1,'',7,1),(8,'2015-10-31 08:25:21','4','Book object',1,'',9,1),(9,'2015-10-31 08:26:52','5','Link object',1,'',7,1),(10,'2015-10-31 08:31:54','5','Book object',1,'',9,1),(11,'2015-10-31 08:34:20','6','Link object',1,'',7,1),(12,'2015-10-31 08:37:14','6','Book object',1,'',9,1),(13,'2015-10-31 08:45:19','7','Link object',1,'',7,1),(14,'2015-10-31 08:45:21','7','Book object',1,'',9,1),(15,'2015-10-31 08:50:21','1','Task object',1,'',10,1),(16,'2015-10-31 08:50:49','2','Task object',1,'',10,1),(17,'2015-10-31 08:52:07','2','Task object',2,'Changed name, description and priority.',10,1),(18,'2015-10-31 08:52:45','3','Task object',1,'',10,1),(19,'2015-10-31 08:54:09','4','Task object',1,'',10,1),(20,'2015-10-31 08:55:48','5','Task object',1,'',10,1);
+INSERT INTO `django_admin_log` VALUES (1,'2015-10-31 07:58:35','1','Link object',1,'',7,1),(2,'2015-10-31 08:05:15','1','Book object',1,'',9,1),(3,'2015-10-31 08:08:02','2','Link object',1,'',7,1),(4,'2015-10-31 08:13:22','2','Book object',1,'',9,1),(5,'2015-10-31 08:20:25','3','Link object',1,'',7,1),(6,'2015-10-31 08:20:27','3','Book object',1,'',9,1),(7,'2015-10-31 08:22:21','4','Link object',1,'',7,1),(8,'2015-10-31 08:25:21','4','Book object',1,'',9,1),(9,'2015-10-31 08:26:52','5','Link object',1,'',7,1),(10,'2015-10-31 08:31:54','5','Book object',1,'',9,1),(11,'2015-10-31 08:34:20','6','Link object',1,'',7,1),(12,'2015-10-31 08:37:14','6','Book object',1,'',9,1),(13,'2015-10-31 08:45:19','7','Link object',1,'',7,1),(14,'2015-10-31 08:45:21','7','Book object',1,'',9,1),(15,'2015-10-31 08:50:21','1','Task object',1,'',10,1),(16,'2015-10-31 08:50:49','2','Task object',1,'',10,1),(17,'2015-10-31 08:52:07','2','Task object',2,'Changed name, description and priority.',10,1),(18,'2015-10-31 08:52:45','3','Task object',1,'',10,1),(19,'2015-10-31 08:54:09','4','Task object',1,'',10,1),(20,'2015-10-31 08:55:48','5','Task object',1,'',10,1),(21,'2015-11-07 04:15:49','1','Book object',2,'Changed vocabulary.',9,1),(22,'2015-11-07 06:46:48','6','Book object',2,'Changed vocabulary.',9,1),(23,'2015-11-07 06:51:56','5','Book object',2,'Changed vocabulary.',9,1),(24,'2015-11-07 06:59:21','4','Book object',2,'Changed vocabulary.',9,1),(25,'2015-11-07 07:00:44','1','Book object',2,'Changed vocabulary.',9,1),(26,'2015-11-07 07:01:13','2','Book object',2,'Changed vocabulary.',9,1),(27,'2015-11-07 07:02:24','3','Book object',2,'Changed vocabulary.',9,1),(28,'2015-11-07 07:03:06','7','Book object',2,'Changed vocabulary.',9,1);
 /*!40000 ALTER TABLE `django_admin_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -325,7 +325,7 @@ CREATE TABLE `ecard_book` (
 
 LOCK TABLES `ecard_book` WRITE;
 /*!40000 ALTER TABLE `ecard_book` DISABLE KEYS */;
-INSERT INTO `ecard_book` VALUES (1,'https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png','Louis Sachar','Holes','shovel,lizard,crate,donkey,reptile,odor,onion,','Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.','Fate love kind child',1),(2,'https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg',' Lois Lowry','Gathering Blue','tend,flourish,agony,weave,dye,defiant,kettle,mug,ominous, stalk','Kira is a strong and talent girl despite her leg trouble. From amazon: \"As she did in The Giver and later Messenger, in Gathering Blue Lois Lowry challenges readers to imagine what our world could become, how people could evolve, and what could be considered valuable\"','Everyone is special',2),(3,'http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg','Karen Cushman','Midwife\'s Apprentice','dung,midwife,apprentice','wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.','Life',3),(4,'https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg','C. S. Lewis','The Lion, the Witch and the Wardrobe','mane,velvet,pavillion,lodge,robe,dodge,crumble,spring,stride,repulsive,nibble,sheath,hilt,mercy,scramble,steep,muffle','Just a fairy tail with Witch, Lion and good siblings','Go on an adventure',4),(5,'https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg','Lois Lowry','Number the Stars','fiance,throne,herb,slap,trudge,scold,sabotage,stern,sputter or splutter,bellow,ponder,deftly,tug,bucket,frothy,wrinkle,meadow,dismay,attic,leap,dart,heap,snarl,leash','Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..','Be Brave',5),(6,'https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Missing_May.jpg/220px-Missing_May.jpg','Cynthia Rylant','Missing May','trailer,consolation,hoist,sharpnel,thigh,twig,snap','Short, light story about family love. \"Summer\", \"May\", \"Ob\", \"Cletus\" were beautiful names','Love your loveones',6),(7,'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Kite_runner.jpg/220px-Kite_runner.jpg','Khaled Hosseini','The Kite Runner','crisp,breeze,vault,intricate,mosaic,creek (noun,water),elope,congenital,perpetually,polio,mold(the world),acne,gruff,coarse,abundantly,shred,bleak,toss,hurl,valiant,impeccable,mischief,seduce,scramble,weep,bead,bolt,flank,refrain,snicker,tuck, armpit,ironic,crunch,thaw,covet,trot,scuttle,adjacent,flush ( ~blush),shierk,gnarle,havoc, discard,thwart,limp,mumble,motto,slaughter','Some kind of shocking feeling. I have a first look at some remote lands like Afgha','Life is full of stunning story',7);
+INSERT INTO `ecard_book` VALUES (1,'https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png','Louis Sachar','Holes','Test@@@@shovel@@@@lizard@@@@crate@@@@donkey@@@@reptile@@@@odor@@@@onion','Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.','Fate love kind child',1),(2,'https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg',' Lois Lowry','Gathering Blue','tend^^^^Weeds had gone untended while his wife had neared her time, given birth then died$$$$@@@@flourish@@@@agony@@@@weave@@@@dye@@@@defiant@@@@kettle@@@@mug@@@@ominous@@@@stalk','Kira is a strong and talent girl despite her leg trouble. From amazon: \"As she did in The Giver and later Messenger, in Gathering Blue Lois Lowry challenges readers to imagine what our world could become, how people could evolve, and what could be considered valuable\"','Everyone is special',2),(3,'http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg','Karen Cushman','Midwife\'s Apprentice','dung^^^^Something like Max\'s excrement :D$$$$@@@@midwife@@@@apprentice','wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.','Life',3),(4,'https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg','C. S. Lewis','The Lion, the Witch and the Wardrobe','mane@@@@velvet@@@@pavillion@@@@lodge@@@@robe@@@@dodge@@@@crumble@@@@spring@@@@stride@@@@repulsive@@@@nibble@@@@sheath@@@@hilt@@@@mercy@@@@scramble@@@@steep@@@@muffle','Just a fairy tail with Witch, Lion and good siblings','Go on an adventure',4),(5,'https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg','Lois Lowry','Number the Stars','fiance@@@@throne@@@@herb@@@@slap@@@@trudge@@@@scold@@@@sabotage@@@@stern@@@@sputter or splutter@@@@bellow@@@@ponder@@@@deftly@@@@tug@@@@bucket@@@@frothy@@@@wrinkle@@@@meadow@@@@dismay@@@@attic@@@@leap@@@@dart@@@@heap@@@@snarl@@@@leash','Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..','Be Brave',5),(6,'https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Missing_May.jpg/220px-Missing_May.jpg','Cynthia Rylant','Missing May','twig@@@@snap^^^^Summer thougt her friend\'s finger like a twigs that could be snapped in a minute.$$$$@@@@hoist^^^^May was a big woman so she had to hoist herself out of the front seat$$$$@@@@thigh^^^^Japanese sharpnel had got Ob in the thigh$$$$@@@@consolation^^^^What is the true mission of spirit message ? To bring us consolation in the sorrows of life$$$$trailer^^^^Summer lived in a beautiful trailer with her raising parents$$$$','Short, light story about family love. \"Summer\", \"May\", \"Ob\", \"Cletus\" were beautiful names','Love your loveones',6),(7,'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Kite_runner.jpg/220px-Kite_runner.jpg','Khaled Hosseini','The Kite Runner','crisp@@@@breeze@@@@vault@@@@intricate@@@@mosaic@@@@creek (noun@@@@water)@@@@elope@@@@congenital@@@@perpetually@@@@polio@@@@mold(the world)@@@@acne@@@@gruff@@@@coarse@@@@abundantly@@@@shred@@@@bleak@@@@toss@@@@hurl@@@@valiant@@@@impeccable@@@@mischief@@@@seduce@@@@scramble@@@@weep@@@@bead@@@@bolt@@@@flank@@@@refrain@@@@snicker@@@@tuck@@@@ armpit@@@@ironic@@@@crunch@@@@thaw@@@@covet@@@@trot@@@@scuttle@@@@adjacent@@@@flush ( ~blush)@@@@shierk@@@@gnarle@@@@havoc@@@@ discard@@@@thwart@@@@limp@@@@mumble@@@@motto@@@@slaughter','Some kind of shocking feeling. I have a first look at some remote lands like Afgha','Life is full of stunning story',7);
 /*!40000 ALTER TABLE `ecard_book` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -380,7 +380,7 @@ CREATE TABLE `ecard_task` (
 
 LOCK TABLES `ecard_task` WRITE;
 /*!40000 ALTER TABLE `ecard_task` DISABLE KEYS */;
-INSERT INTO `ecard_task` VALUES (1,'Close eye','Close your eye for just 2minutes, forgetting any thing',5,0,'2015-11-02 08:50:02','2015-11-02 08:50:15'),(2,'Draw a commit','Just make a commit to ecard to make momentum, no matter what changes it is',4,0,'2015-11-02 08:50:43','2015-11-02 08:50:44'),(3,'Be tough','I should be more tough and confident',1,0,'2015-11-02 08:52:39','2015-11-02 08:52:40'),(4,'Go home early','Go home early, it\'s Monday. Working late on the first day of week can lead into really hard week',2,0,'2015-11-02 08:54:05','2015-11-02 08:54:08'),(5,'Be healthy and beautiful','Try to eat healthy food, walking around, drink enough water',3,0,'2015-11-02 08:55:42','2015-11-02 08:55:45');
+INSERT INTO `ecard_task` VALUES (1,'Close eye','Close your eye for just 2minutes, forgetting any thing',5,1,'2015-11-02 08:50:02','2015-11-02 08:50:15'),(2,'Draw a commit','Just make a commit to ecard to make momentum, no matter what changes it is',4,1,'2015-11-02 08:50:43','2015-11-02 08:50:44'),(3,'Be tough','I should be more tough and confident',1,1,'2015-11-02 08:52:39','2015-11-02 08:52:40'),(4,'Go home early','Go home early, it\'s Monday. Working late on the first day of week can lead into really hard week',2,1,'2015-11-02 08:54:05','2015-11-02 08:54:08'),(5,'Be healthy and beautiful','Try to eat healthy food, walking around, drink enough water',3,1,'2015-11-02 08:55:42','2015-11-02 08:55:45');
 /*!40000 ALTER TABLE `ecard_task` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -419,4 +419,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-31 15:57:05
+-- Dump completed on 2015-11-07 21:50:17
