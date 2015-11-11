@@ -907,3 +907,447 @@ AttributeError: 'Book' object has no attribute 'link'
 {"author":"Karen Cushman","comment":"wiki: Through the course of the book, Alyce transforms from a nameless, \"worthless\" nonentity into a young woman who has friends, skills, a name, a cat and a future.","iconUrl":"http://ecx.images-amazon.com/images/I/51XFr3yZg4L._SX334_BO1,204,203,200_.jpg","id":"3","link":"https://en.wikipedia.org/wiki/The_Midwife\u0027s_Apprentice","mood":"Life","name":"Midwife\u0027s Apprentice","vocabulary":"dung^^^^Something like Max\u0027s excrement :D$$$$@@@@midwife@@@@apprentice"}
 {"author":"Lois Lowry","comment":"Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"5","link":"https://en.wikipedia.org/wiki/Number_the_Stars","mood":"Be Brave","name":"Number the Stars","vocabulary":"fiance@@@@throne@@@@herb@@@@slap@@@@trudge@@@@scold@@@@sabotage@@@@stern@@@@sputter or splutter@@@@bellow@@@@ponder@@@@deftly@@@@tug@@@@bucket@@@@frothy@@@@wrinkle@@@@meadow@@@@dismay@@@@attic@@@@leap@@@@dart@@@@heap@@@@snarl@@@@leash"}
 {"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"Test@@@@shovel@@@@lizard@@@@crate@@@@donkey@@@@reptile@@@@odor@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@Test^^^^Test ph1$$$$@@@@donkey@@@@shovel@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@donkey@@@@shovel@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@New1@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@New1@@@@New 2@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@New1@@@@New 2@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@donkey@@@@shovel@@@@New3@@@@New1@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@Test\u0026\u0026\u0026\u0026Test ph2$$$$@@@@donkey@@@@shovel@@@@New1@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New1@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New1^^^^phrase1$$$$@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@New1\u0026\u0026\u0026\u0026phrase2$$$$@@@@New 2@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@New1\u0026\u0026\u0026\u0026phrase2$$$$@@@@New 2@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor@@@@shovel@@@@donkey@@@@New1\u0026\u0026\u0026\u0026phrase2$$$$@@@@New 2@@@@crate@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New 2^^^^ph1$$$$@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New 2^^^^ph1\u0026\u0026\u0026\u0026ph2$$$$@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New 2^^^^ph2$$$$@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@New 2@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@donkey@@@@shovel@@@@reptile@@@@crate@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^This is the test phrase for the word odor, lol$$$$@@@@crate@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^This is the test phrase for the word odor, lol\u0026\u0026\u0026\u0026I have to add more phrases to test for this word, and including * character at the beginning of the phrase$$$$@@@@crate@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^I have to add more phrases to test for this word, and including * character at the beginning of the phrase$$$$@@@@lizard@@@@reptile@@@@crate@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^aaa$$$$@@@@lizard@@@@reptile@@@@crate@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^aaa$$$$@@@@crate^^^^hehehesd*$$$$@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate^^^^hehehesd*$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^sfsfsdf$$$$@@@@lizard@@@@reptile@@@@crate^^^^hehehesd*$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^sfsfsdf\u0026\u0026\u0026\u0026sfsfsfasfsfd$$$$@@@@lizard@@@@reptile@@@@crate^^^^hehehesd*$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^sfsfsfasfsfd$$$$@@@@crate^^^^hehehesd*$$$$@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^sfsfsfasfsfd\u0026\u0026\u0026\u0026this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate^^^^hehehesd*$$$$@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+Not Found: /favicon.ico
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^hehehesd*$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard^^^^aaaa$$$$@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"lizard@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":" Lois Lowry","comment":"Kira is a strong and talent girl despite her leg trouble. From amazon: \"As she did in The Giver and later Messenger, in Gathering Blue Lois Lowry challenges readers to imagine what our world could become, how people could evolve, and what could be considered valuable\"","iconUrl":"https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg","id":"2","link":"https://en.wikipedia.org/wiki/Gathering_Blue","mood":"Everyone is special","name":"Gathering Blue","vocabulary":"mug^^^^his mug$$$$@@@@agony@@@@ominous@@@@dye@@@@kettle@@@@weave@@@@stalk@@@@defiant@@@@tend^^^^Weeds had gone untended while his wife had neared her time, given birth then died$$$$@@@@flourish"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind child","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holesaaa","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holeswww","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holessss","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holeseee","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sector","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holessss","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Helicase","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holeses","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard@@@@reptile@@@@crate^^^^no$$$$@@@@donkey@@@@shovel@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holeses","vocabulary":"lizard^^^^aaa$$$$@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate^^^^no$$$$@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"lizard^^^^aaa$$$$@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@crate^^^^no$$$$@@@@reptile@@@@onion@@@@shovel@@@@donkey"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@lizard^^^^aaa$$$$@@@@test@@@@donkey@@@@shovel@@@@reptile@@@@crate^^^^no$$$$@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"lizard^^^^aaa$$$$@@@@odor^^^^this is supposed to be very long phrases so i can see the delete icon$$$$@@@@shovel@@@@donkey@@@@crate^^^^no$$$$@@@@reptile@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holeses","vocabulary":"odor@@@@lizard^^^^aaa$$$$@@@@reptile@@@@crate^^^^no$$$$@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard^^^^aaa$$$$@@@@reptile@@@@crate^^^^no$$$$@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"lizard@@@@odor@@@@crate^^^^no$$$$@@@@reptile@@@@shovel@@@@donkey@@@@onion"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Lois Lowry","comment":"Good story about the courage of the young girl during war. I learn something interesting about western history, nazi, war, etc..","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"5","link":"https://en.wikipedia.org/wiki/Number_the_Stars","mood":"Be Brave","name":"Number the Stars","vocabulary":"snarl@@@@sabotage@@@@bucket@@@@stern^^^^He always has a stern voice when talking with her$$$$@@@@fiance@@@@ponder@@@@bellow@@@@sputter or splutter@@@@frothy@@@@heap@@@@leash@@@@dart@@@@wrinkle@@@@dismay@@@@slap@@@@throne@@@@herb@@@@meadow@@@@trudge@@@@deftly@@@@attic@@@@leap@@@@tug@@@@scold"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.pn","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://en.wikipedia.org/wiki/File:The_titan%27s_curse.jpg","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://en.wikipedia.org/wiki/File:Missing_May.jpg","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpe","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Louis Sachar","comment":"Really my first english book. I remember reading them with difficulty thanks to my bad english by then. I read it on my ipad.","iconUrl":"https://upload.wikimedia.org/wikipedia/en/2/23/Number_the_Stars_book_cover.jpeg","id":"1","link":"https://en.wikipedia.org/wiki/Holes_%28novel%29","mood":"Fate love kind children","name":"Holes","vocabulary":"odor@@@@lizard@@@@reptile@@@@crate@@@@onion@@@@donkey@@@@shovel"}
+{"author":"Richard Riordan","comment":"The second big adventure of the son of the Sea God","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Percy and Annabeth","name":"Percy Jackson and Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Richard Riordan","comment":"The second big adventure of the son of the Sea God","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Percy and Annabeth","name":"Percy Jackson and Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Richard Riordan","comment":"The second big adventure of the son of the Sea God","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Percy and Annabeth","name":"Percy Jackson and Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"Richard Riordan","comment":"The second big adventure of the son of the Sea God","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Percy and Annabeth","name":"Percy Jackson and Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 41, in edit_book
+    return add_book(request)
+  File "C:\Python27\mysite\ecard\views.py", line 47, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 59, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 59, in add_book
+    old_book = Book.objects.get(pk=jbook.get("id"))
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 334, in get
+    self.model._meta.object_name
+DoesNotExist: Book matching query does not exist.
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 60, in add_book
+    link.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 827, in _save_table
+    forced_update)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 857, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1310, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1338, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1209, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\query.py", line 1102, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 101, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Python27\lib\site-packages\django\db\models\lookups.py", line 139, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'https://en.wikipedia.org/wiki/Book'
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 61, in add_book
+    updated_book = Book(link=link, name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 480, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'link' is an invalid keyword argument for this function
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 62, in add_book
+    updated_book = Book(link=link, name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 480, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % list(kwargs)[0])
+TypeError: 'link' is an invalid keyword argument for this function
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\mysite\urls.py", line 20, in <module>
+    url(r'^ecard/', include('ecard.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Python27\mysite\ecard\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Python27\mysite\ecard\views.py", line 61
+    updated_book = Book(booklink=link, name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+SyntaxError: keyword argument repeated
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 62, in add_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'vocabulary' cannot be null")
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 62, in add_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'vocabulary' cannot be null")
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 62, in add_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'vocabulary' cannot be null")
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+Internal Server Error: /ecard/add_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 62, in add_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'vocabulary' cannot be null")
+{"author":"saaaa","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+{"author":"Rich Riordan","comment":"The second big adventure of Percy","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Save your friend","name":"Percy Jackson: Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 50, in edit_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 827, in _save_table
+    forced_update)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 877, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 580, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 1062, in execute_sql
+    cursor = super(SQLUpdateCompiler, self).execute_sql(result_type)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 829, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 1030, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\related.py", line 1945, in get_db_prep_save
+    return self.related_field.get_db_prep_save(value, connection=connection)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 977, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters'
+{"author":"Rich Riordan","comment":"The second big adventure of Percy","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Save your friend","name":"Percy Jackson: Sea of Monsters"}
+Internal Server Error: /ecard/edit_book/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\mysite\ecard\views.py", line 50, in edit_book
+    updated_book.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 827, in _save_table
+    forced_update)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 877, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 580, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 1062, in execute_sql
+    cursor = super(SQLUpdateCompiler, self).execute_sql(result_type)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 829, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 1030, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\related.py", line 1945, in get_db_prep_save
+    return self.related_field.get_db_prep_save(value, connection=connection)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 710, in get_db_prep_save
+    prepared=False)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 977, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Python27\lib\site-packages\django\db\models\fields\__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters'
+{"author":"Rich Riordan","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+{"author":"Rich Riordan","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+{"author":"Rich Riordan","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+{"author":"Rich Riordan","comment":"aaa","iconUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sumerian_MS2272_2400BC.jpg/220px-Sumerian_MS2272_2400BC.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Book","mood":"aaa","name":"Percy Jackson and se"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane@@@@velvet@@@@pavillion@@@@lodge@@@@robe@@@@dodge@@@@crumble@@@@spring@@@@stride@@@@repulsive@@@@nibble@@@@sheath@@@@hilt@@@@mercy@@@@scramble@@@@steep@@@@muffle"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane@@@@steep@@@@hilt@@@@dodge@@@@stride@@@@spring@@@@robe@@@@muffle@@@@pavillion@@@@sheath@@@@repulsive@@@@crumble@@@@scramble@@@@wardrobe@@@@nibble@@@@velvet@@@@mercy@@@@lodge"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane@@@@steep@@@@hilt@@@@dodge@@@@robe@@@@spring@@@@stride@@@@muffle@@@@pavillion@@@@sheath@@@@crumble@@@@repulsive@@@@scramble@@@@nibble@@@@wardrobe@@@@velvet@@@@lodge@@@@mercy"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane^^^^aaaa$$$$@@@@steep@@@@hilt@@@@dodge@@@@stride@@@@spring@@@@robe@@@@muffle@@@@pavillion@@@@sheath@@@@repulsive@@@@crumble@@@@scramble@@@@wardrobe@@@@nibble@@@@velvet@@@@mercy@@@@lodge"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane@@@@steep@@@@hilt@@@@dodge@@@@robe@@@@spring@@@@stride@@@@muffle@@@@pavillion@@@@sheath@@@@crumble@@@@repulsive@@@@scramble@@@@nibble@@@@wardrobe@@@@velvet@@@@lodge@@@@mercy"}
+{"author":"C. S. Lewis","comment":"Just a fairy tail with Witch, Lion and good siblings","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg","id":"4","link":"https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe","mood":"Go on an adventure","name":"The Lion, the Witch and the Wardrobe","vocabulary":"mane@@@@steep@@@@hilt@@@@dodge@@@@stride@@@@spring@@@@robe@@@@muffle@@@@pavillion@@@@sheath@@@@repulsive@@@@crumble@@@@scramble@@@@wardrobe^^^^Highly successful people simplify their wardrobe and minimize the amount of decisions they make on trivial matters$$$$@@@@nibble@@@@velvet@@@@mercy@@@@lodge"}
+{"author":"Rich Riordan","comment":"Great book for young adults and lower intermediate English learners. I just couldn\u0027t wait to finish it off after reading the first pages. I completely forgot it\u0027s written in my second language - English","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Existence of Gods","name":"Percy Jackson: Sea Of Monsters"}
+Not Found: /favicon.ico
+{"author":"Rich Riordan","comment":"Great book for young adults and lower intermediate English learners. I just couldn\u0027t wait to finish it off after reading the first pages. I completely forgot it\u0027s written in my second language - English","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Existence of Gods","name":"Percy Jackson: Sea Of Monsters","vocabulary":"dais, casket, ashes@@@@screech^^^^The three old lady driver screeched \" we don\u0027t take his kind\" (Tyson)$$$$@@@@hitch, provision, kerosense@@@@gross@@@@propel vs prop@@@@boulder@@@@javelin, entangle@@@@rip, veil, scruffy, adolescent@@@@subtle@@@@gloat (desire)@@@@lumber, wade@@@@deed@@@@timber, whack, beam@@@@smoldering, hatch@@@@trespasser@@@@chariot, tremple@@@@sprawl, daze@@@@stammer@@@@vulture@@@@tackle, braid@@@@shudder, billow@@@@inhale, exhale, lurched@@@@tumble, chasm@@@@strangle@@@@hipster, scraf@@@@wail, crumple \u003c\u003e crumble@@@@ferocity@@@@wail, juvenile, delinquent@@@@pathetic@@@@feisty, feast@@@@frantically@@@@lap, hull, current@@@@rodent, hutch@@@@scoot away@@@@traitor (betrayal, defector)@@@@lump, patrol, python@@@@nautical"}
+{"author":"Rich Riordan","comment":"Great book for young adults and lower intermediate English learners. I just couldn\u0027t wait to finish it off after reading the first pages. I completely forgot it\u0027s written in my second language - English","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Existence of Gods","name":"Percy Jackson: Sea Of Monsters","vocabulary":"screech^^^^The three old lady driver screeched \" we don\u0027t take his kind\" (Tyson)$$$$@@@@dais, casket, ashes@@@@hitch, provision, kerosense@@@@gross@@@@propel vs prop@@@@javelin, entangle@@@@boulder@@@@rip, veil, scruffy, adolescent@@@@gloat (desire)@@@@subtle@@@@deed@@@@lumber, wade@@@@timber, whack, beam@@@@smoldering, hatch@@@@trespasser@@@@chariot, tremple@@@@sprawl, daze@@@@stammer@@@@vulture@@@@tackle, braid@@@@shudder, billow@@@@inhale, exhale, lurched@@@@strangle@@@@tumble, chasm@@@@hipster, scraf@@@@wail, crumple \u003c\u003e crumble@@@@ferocity@@@@wail, juvenile, delinquent@@@@feisty, feast^^^^Polyphemus called Clarisse a feisty one, and he wanted to eat the loudmouth girl for wedding feast.$$$$@@@@pathetic@@@@frantically@@@@scoot away@@@@rodent, hutch@@@@lap, hull, current@@@@traitor (betrayal, defector)@@@@lump, patrol, python@@@@nautical"}
+{"author":"Rich Riordan","comment":"Great book for young adults and lower intermediate English learners. I just couldn\u0027t wait to finish it off after reading the first pages. I completely forgot it\u0027s written in my second language - English","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Percy-Jackson-Sea-poster.jpg/220px-Percy-Jackson-Sea-poster.jpg","id":"8","link":"https://en.wikipedia.org/wiki/Percy_Jackson:_Sea_of_Monsters","mood":"Existence of Gods","name":"Percy Jackson: Sea Of Monsters","vocabulary":"dais, casket, ashes@@@@screech^^^^The three old lady driver screeched \" we don\u0027t take his kind\" (Tyson)$$$$@@@@hitch, provision, kerosense@@@@gross@@@@propel vs prop@@@@boulder@@@@javelin, entangle@@@@rip, veil, scruffy, adolescent@@@@subtle^^^^Getting chopped into a milion pieces and cast into the darkest part of the Underworld would give him a subtle clue that nobody wanted him around.$$$$@@@@gloat (desire)@@@@lumber, wade@@@@deed@@@@timber, whack, beam@@@@smoldering, hatch@@@@trespasser@@@@chariot, tremple@@@@sprawl, daze@@@@stammer@@@@vulture@@@@tackle, braid@@@@shudder, billow@@@@inhale, exhale, lurched@@@@tumble, chasm@@@@strangle@@@@hipster, scraf@@@@wail, crumple \u003c\u003e crumble@@@@ferocity@@@@wail, juvenile, delinquent@@@@pathetic@@@@feisty, feast^^^^Polyphemus called Clarisse a feisty one, and he wanted to eat the loudmouth girl for wedding feast.$$$$@@@@frantically@@@@lap, hull, current@@@@rodent, hutch@@@@scoot away@@@@traitor (betrayal, defector)@@@@lump, patrol, python@@@@nautical"}
+{"author":"Lois Lowry","comment":"Sameness social is bad idea","iconUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/The_Giver_first_edition_1993.jpg/220px-The_Giver_first_edition_1993.jpg","link":"https://en.wikipedia.org/wiki/The_Giver","mood":"Be Different","name":"The Giver"}

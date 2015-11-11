@@ -14,7 +14,7 @@ class Book(models.Model):
     iconUrl = models.CharField(max_length=200)
     author = models.CharField(max_length=200)
     name = models.CharField(max_length=200)
-    vocabulary = models.CharField(max_length=1000)
+    vocabulary = models.CharField(max_length=1000, blank=True, null=True)
     comment = models.CharField(max_length=500, default='')
     mood = models.CharField(max_length=1000)
     booklink = models.ForeignKey(Link)

@@ -38,19 +38,38 @@ def get_books(request):
     return JsonResponse(response, safe=False)
 
 def edit_book(request):
-    return add_book(request)
+    new_book_string = request.POST.get('book')
+    logger.error(new_book_string)
+    jbook = json.loads(new_book_string);
+    old_book = Book.objects.get(pk=jbook.get("id"))
+    if jbook.get("link") == old_book.booklink.url:
+        link = old_book.booklink
+    else:
+        old_book.booklink.delete()
+        link =  Link(url=jbook.get("link"), description="Link of book " + jbook.get("name"))
+        link.save()
+    updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+    updated_book.save()
+    response = utils.build_json_obj_success()
+    return JsonResponse(response)
+
 
 def add_book(request):
     new_book_string = request.POST.get('book')
     logger.error(new_book_string)
     jbook = json.loads(new_book_string);
-    old_book = Book.objects.get(pk=jbook.get("id"))
-    if old_book:
-        link = old_book.booklink
-    else:
-        link = Link(url="http://google.com.vn")
-    updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
+    link =  Link(url=jbook.get("link"), description="Link of book " + jbook.get("name"))
+    link.save()
+    updated_book = Book(booklink=link, name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),mood=jbook.get("mood"))
     updated_book.save()
+    response = utils.build_json_obj_success()
+    return JsonResponse(response)
+
+def delete_book(request):
+    # utils.dump(request.POST)
+    pk = request.POST.get('id')
+    deleted_book = Book.objects.get(pk=pk)
+    deleted_book.delete();
     response = utils.build_json_obj_success()
     return JsonResponse(response)
 
