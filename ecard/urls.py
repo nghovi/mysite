@@ -6,6 +6,7 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
 
     url(r'^get_primary_card_info/$', views.get_books, name='get_primary_card_info'),
+    url(r'^get_mottos/$', views.get_mottos, name='get_mottos'),
 
 
     url(r'^get_tasks/$', views.get_tasks, name='get_tasks'),

@@ -13,6 +13,7 @@ from .models import Task
 from .models import Book
 from .models import UserPreference
 from .models import Link
+from .models import Motto
 from datetime import datetime
 
 import utils;
@@ -28,6 +29,12 @@ def index(request):
 
 def get_primary_card_info(request):
     return HttpResponse("todo")
+
+def get_mottos(request):
+    # utils.dump(request.GET)
+    mottos = Motto.objects.all()
+    response = utils.build_obj_from_queryset(mottos);
+    return JsonResponse(response, safe=False)
 
 def get_books(request):
     # utils.dump(request.GET)

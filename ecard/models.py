@@ -26,3 +26,7 @@ class Task(models.Model):
     status = models.IntegerField(default=0)
     date = models.DateTimeField('date updated')
     lastupdated = models.DateTimeField('date updated')
+
+class Motto(models.Model):
+    message = models.CharField(max_length=200)
+    mottotype = models.IntegerField(default=0)
