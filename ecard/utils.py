@@ -43,7 +43,7 @@ def build_obj_from_queryset(queryset):
     json_obj = get_obj_without_slash(response_dict)
     return json_obj
 
-def build_json_obj_success():
-    response_dict = {'statusCode' : 1}
+def build_json_obj_success(data):
+    response_dict = {'statusCode' : 1, 'data' : data}
     json_obj = get_obj_without_slash(response_dict)
     return response_dict

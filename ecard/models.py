@@ -17,6 +17,7 @@ class Book(models.Model):
     vocabulary = models.TextField(blank=True, null=True)
     comment = models.CharField(max_length=500, default='')
     mood = models.CharField(max_length=1000)
+    isDeleted = models.BooleanField(default=False)
     booklink = models.ForeignKey(Link)
 
 class Task(models.Model):
@@ -24,6 +25,7 @@ class Task(models.Model):
     description = models.CharField(max_length=200)
     priority = models.IntegerField(default=0)
     status = models.IntegerField(default=0)
+    isDeleted = models.BooleanField(default=False)
     date = models.DateTimeField('date updated')
     lastupdated = models.DateTimeField('date updated')
 

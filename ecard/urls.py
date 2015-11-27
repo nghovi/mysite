@@ -10,6 +10,8 @@ urlpatterns = [
 
 
     url(r'^get_tasks/$', views.get_tasks, name='get_tasks'),
+    url(r'^get_tasks_by_date/$', views.get_tasks_by_date, name='get_tasks_by_date'),
+    url(r'^get_deleted_tasks/$', views.get_deleted_tasks, name='get_tasks'),
     url(r'^get_unfinished_tasks/$', views.get_unfinished_tasks, name='get_unfinished_tasks'),
 
     # url(r'^delete_task/(?P<task_id>[0-9]+)/$', views.delete_task, name='delete_task'),
