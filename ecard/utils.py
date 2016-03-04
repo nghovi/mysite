@@ -37,13 +37,27 @@ def dump(obj):
      print ("Dump object " + str(obj) + ":\n")
      pprint(vars(obj))
 
-def build_obj_from_queryset(queryset):
-    records = convert_queryset_to_list(queryset)
-    response_dict = {'data' : records}
+def build_json_obj_success(query):
+    new_record = {}
+    for attr in vars(query):
+        if attr != '_state':
+            new_record[attr] = getattr(query, attr)
+    response_dict = {'statusCode' : 1, 'data' : new_record}
     json_obj = get_obj_without_slash(response_dict)
     return json_obj
 
-def build_json_obj_success(data):
-    response_dict = {'statusCode' : 1, 'data' : data}
+def build_json_obj_success_with_serializer(serializer):
+    response_dict = {'statusCode' : 1, 'data' : serializer.data}
+    json_obj = get_obj_without_slash(response_dict)
+    return json_obj
+
+def build_json_obj_success_query_set(queryset):
+    records = convert_queryset_to_list(queryset)
+    response_dict = {'statusCode' : 1, 'data' : records}
+    json_obj = get_obj_without_slash(response_dict)
+    return response_dict
+
+def build_json_obj_failure(data):
+    response_dict = {'statusCode' : 0, 'data' : data}
     json_obj = get_obj_without_slash(response_dict)
     return response_dict

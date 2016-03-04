@@ -51,3 +51,9 @@ refs:
 Server: ec2-54-175-13-221.compute-1.amazonaws.com  /  54.175.13.221
 vars(obj) //return tuple of attrs of obj
 getattr(obj, attr) //
+___
+play clean
+play compile
+play eclipse
+--> play debug run
+--> ctrl + D

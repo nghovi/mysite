@@ -14,6 +14,15 @@ from .models import Book
 from .models import UserPreference
 from .models import Link
 from .models import Motto
+from .models import Word
+from .models import Phrase
+from .models import LinkSerializer
+from .models import WordSerializer
+from .models import PhraseSerializer
+from .models import BookSerializer
+
+
+
 from datetime import datetime
 
 import utils;
@@ -39,45 +48,110 @@ def get_mottos(request):
 def get_books(request):
     # utils.dump(request.GET)
     books = Book.objects.all()
-    for book in books:
-        book.link = book.booklink.url
-    response = utils.build_obj_from_queryset(books);
+    # for book in books:
+        # book.link = book.booklink.url
+    response = utils.build_json_obj_success_query_set(books)
+    # serializer = BookSerializer(instance=books, many=True)
+    # response = utils.build_json_obj_success_with_serializer(serializer);
     return JsonResponse(response, safe=False)
 
-def edit_book(request):
-    new_book_string = request.POST.get('book')
-    logger.error(new_book_string)
-    jbook = json.loads(new_book_string);
-    old_book = Book.objects.get(pk=jbook.get("id"))
-    if jbook.get("link") == old_book.booklink.url:
-        link = old_book.booklink
+def get_book_detail(request):
+    utils.dump(request.POST)
+    book_id = request.POST.get('id')
+    if book_id:
+        book = Book.objects.get(pk=book_id)
+        serializer = BookSerializer(instance=book)
+        response = utils.build_json_obj_success_with_serializer(serializer);
     else:
-        old_book.booklink.delete()
-        link =  Link(url=jbook.get("link"), description="Link of book " + jbook.get("name"))
-        link.save()
-    updated_book = Book(pk=jbook.get("id"), name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),booklink=link,mood=jbook.get("mood"))
-    updated_book.save()
-    response = utils.build_json_obj_success(data=updated_book.id)
+        response = utils.build_json_obj_failure({'book_id' : book_id})
+    return JsonResponse(response, safe=False)
+
+
+def edit_book(request):
+    book_id = request.POST.get('id');
+    name = request.POST.get('name');
+    author = request.POST.get('author');
+    comment = request.POST.get('comment');
+    iconurl = request.POST.get('iconurl');
+    url = request.POST.get('link');
+
+    old_book = Book.objects.get(pk=book_id)
+    if url != old_book.link.url:
+        old_book.link.url = url;
+        old_book.link.save();
+    old_book.name = name;
+    old_book.author = author;
+    old_book.comment = comment;
+    old_book.iconurl = iconurl;
+    old_book.save();
+
+    serializer = BookSerializer(instance=old_book)
+    response = utils.build_json_obj_success_with_serializer(serializer);
     return JsonResponse(response)
 
+def add_word(request):
+    book_id = request.POST.get('book_id');
+    syllabus = request.POST.get('new_word');
+    content = request.POST.get('new_phrase');
+   
+    book = Book.objects.get(pk=book_id);
+    word = Word(syllabus=syllabus, book=book);
+    word.save();
+    if content:
+        phrase = Phrase(word=word, content=content);
+        phrase.save();
+    serializer = WordSerializer(instance=word);
+    response = utils.build_json_obj_success_with_serializer(serializer);
+    return JsonResponse(response);
+
+def delete_word(request):
+    word_id = request.POST.get('word_id');
+    word = Word.objects.get(pk=word_id);
+    word.delete();
+    response = utils.build_json_obj_success(query=word)
+    return JsonResponse(response)
+
+def add_phrase(request):
+    word_id = request.POST.get('word_id');
+    content = request.POST.get('new_phrase');
+   
+    word = Word.objects.get(pk=word_id);
+    phrase = Phrase(word=word, content=content);
+    phrase.save();
+    serializer = PhraseSerializer(instance=phrase);
+    response = utils.build_json_obj_success_with_serializer(serializer);
+    return JsonResponse(response);
+
+def delete_phrase(request):
+    phrase_id = request.POST.get('phrase_id');
+    phrase = Phrase.objects.get(pk=phrase_id);
+    phrase.delete();
+    response = utils.build_json_obj_success(query=phrase)
+    return JsonResponse(response)
 
 def add_book(request):
-    new_book_string = request.POST.get('book')
-    logger.error(new_book_string)
-    jbook = json.loads(new_book_string);
-    link =  Link(url=jbook.get("link"), description="Link of book " + jbook.get("name"))
-    link.save()
-    updated_book = Book(booklink=link, name=jbook.get("name"), iconUrl=jbook.get("iconUrl"), author=jbook.get("author"),vocabulary=jbook.get("vocabulary"),comment=jbook.get("comment"),mood=jbook.get("mood"))
-    updated_book.save()
-    response = utils.build_json_obj_success(data=updated_book.id)
+    name = request.POST.get('name');
+    author = request.POST.get('author');
+    comment = request.POST.get('comment');
+    iconurl = request.POST.get('iconurl');
+    url = request.POST.get('link'); 
+
+    link =  Link(url=url, description="Link of book " + name)
+    link.save();
+      
+    new_book = Book(name=name, author=author, comment=comment, iconurl=iconurl, link=link)
+    new_book.save();
+
+    serializer = BookSerializer(instance=new_book)
+    response = utils.build_json_obj_success_with_serializer(serializer);
     return JsonResponse(response)
 
 def delete_book(request):
     # utils.dump(request.POST)
-    pk = request.POST.get('id')
-    deleted_book = Book.objects.get(pk=pk)
+    book_id = request.POST.get('id')
+    deleted_book = Book.objects.get(pk=book_id)
     deleted_book.delete();
-    response = utils.build_json_obj_success(data=False)
+    response = utils.build_json_obj_success(query=deleted_book)
     return JsonResponse(response)
 
 
@@ -88,18 +162,17 @@ def delete_book(request):
 # @basicauth
 def get_tasks(request):
     utils.dump(request.GET)
-    # date = datetime.strptime("Tue Oct 20 09:26:38 GMT 2015",  '%a %b %d %H:%M:%S %Z %Y')
-    # latest_task_list = Task.objects.all().filter(date=date).order_by('-date')
-    latest_task_list = Task.objects.all().filter(isDeleted=False).order_by('-date')
-    response = utils.build_obj_from_queryset(latest_task_list);
+    tasks = Task.objects.all().order_by('priority');
+    response = utils.build_json_obj_success_query_set(tasks);
     return JsonResponse(response, safe=False)
 
 def get_tasks_by_date(request):
     utils.dump(request.GET)
-    #todo get with param, not Post
-    date_filter = datetime.strptime(request.POST.get('date'),  '%a %b %d %H:%M:%S %Z %Y')
-    latest_task_list = Task.objects.all().filter(isDeleted=False, date__startswith=date_filter.date()).order_by('-date')
-    response = utils.build_obj_from_queryset(latest_task_list);
+    year=request.POST.get('year');
+    month=request.POST.get('month');
+    day=request.POST.get('day');
+    tasks = Task.objects.all().filter(date__year=year, date__month=month, date__day=day).order_by('priority');
+    response = utils.build_json_obj_success_query_set(tasks);
     return JsonResponse(response, safe=False)
 
 # For save memory at client
@@ -123,7 +196,7 @@ def add_task(request):
     last_update= datetime.strptime(jtask.get('lastupdated')[:-5], "%Y-%m-%d %H:%M:%S")
     new_task = Task(name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update, isDeleted=False)
     new_task.save()
-    response = utils.build_json_obj_success(data=new_task.id)
+    response = utils.build_json_obj_success(query=new_task.id)
     return JsonResponse(response)
 
 def edit_task(request):
@@ -138,7 +211,7 @@ def edit_task(request):
     else:
         new_task = Task(name=jtask.get("name"), description=jtask.get("description"), status=jtask.get("status"),priority=jtask.get("priority"), date=date, lastupdated=last_update)
     new_task.save()
-    response = utils.build_json_obj_success(data=new_task.id)
+    response = utils.build_json_obj_success(query=new_task.id)
     return JsonResponse(response)
 
 def delete_task(request):
@@ -148,5 +221,5 @@ def delete_task(request):
     deleted_task.isDeleted = True;
     # deleted_task.delete();
     deleted_task.save();
-    response = utils.build_json_obj_success(data=False)
+    response = utils.build_json_obj_success(query=False)
     return JsonResponse(response)
