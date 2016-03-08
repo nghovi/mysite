@@ -37,7 +37,7 @@ def dump(obj):
      print ("Dump object " + str(obj) + ":\n")
      pprint(vars(obj))
 
-def build_json_obj_success(query):
+def build_json_obj_success_query(query):
     new_record = {}
     for attr in vars(query):
         if attr != '_state':
@@ -56,6 +56,12 @@ def build_json_obj_success_query_set(queryset):
     response_dict = {'statusCode' : 1, 'data' : records}
     json_obj = get_obj_without_slash(response_dict)
     return response_dict
+
+### todo
+def build_json_obj_success_data(data):
+    response_dict = {'statusCode' : 1, 'data' : data}
+    json_obj = get_obj_without_slash(response_dict)
+    return json_obj
 
 def build_json_obj_failure(data):
     response_dict = {'statusCode' : 0, 'data' : data}
