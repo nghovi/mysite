@@ -16,7 +16,7 @@ from .models import LinkSerializer
 from django.contrib.auth.models import User, Group
 from django.conf.urls import url, include
 
-from rest_framework.authtoken import views
+
 
 from rest_framework import routers, serializers, viewsets
 

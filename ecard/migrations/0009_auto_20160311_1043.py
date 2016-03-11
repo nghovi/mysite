@@ -7,16 +7,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('ecard', '0006_auto_20151125_1127'),
+        ('ecard', '0008_auto_20160308_0957'),
     ]
 
     operations = [
-        migrations.RemoveField(
+        migrations.AlterField(
             model_name='book',
-            name='isRemoteSaved',
-        ),
-        migrations.RemoveField(
-            model_name='task',
-            name='isRemoteSaved',
+            name='link',
+            field=models.ForeignKey(default=None, blank=True, to='ecard.Link', null=True),
         ),
     ]

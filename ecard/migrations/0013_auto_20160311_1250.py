@@ -7,13 +7,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('ecard', '0001_initial'),
+        ('ecard', '0012_auto_20160311_1121'),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='book',
-            name='vocabulary',
-            field=models.CharField(max_length=1000, null=True, blank=True),
+            model_name='link',
+            name='url',
+            field=models.CharField(default=b'', max_length=200, blank=True),
         ),
     ]

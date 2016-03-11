@@ -7,13 +7,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('ecard', '0003_motto'),
+        ('ecard', '0011_auto_20160311_1058'),
     ]
 
     operations = [
         migrations.AlterField(
             model_name='book',
-            name='vocabulary',
-            field=models.TextField(null=True, blank=True),
+            name='comment',
+            field=models.CharField(default=b'', max_length=500, blank=True),
         ),
     ]
