@@ -6,45 +6,50 @@ from django.core import serializers
 from pprint import pprint
 
 
-
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
+
 
 class JSONResponseOk(HttpResponse):
     """
     An HttpResponse that renders its content into JSON.
     """
+
     def __init__(self, data, **kwargs):
         content = JSONRenderer().render({'statusCode': 1, 'data': data})
         kwargs['content_type'] = 'application/json'
         super(JSONResponseOk, self).__init__(content, **kwargs)
 
+
 class JSONResponseFailure(HttpResponse):
     """
     An HttpResponse that renders its content into JSON.
     """
+
     def __init__(self, data, **kwargs):
         content = JSONRenderer().render({'statusCode': 0, 'data': data})
         kwargs['content_type'] = 'application/json'
         super(JSONResponseFailure, self).__init__(content, **kwargs)
 
+
 def dump2(obj):
     print "DUMP2 ++++++++++++++++++++++++"
     pprint(vars(obj))
 
+
 def dump(obj):
     print "DUMP ++++++++++++++++++++++++"
     if type(obj) is dict:
-        for key,val in obj.items():
+        for key, val in obj.items():
             print("{} = {}".format(key, val))
     elif type(obj) is list:
         for k in obj:
             dump(k)
     else:
         print obj
-     
 
-#This class for make datetime in model serializable
+
+# This class for make datetime in model serializable
 # class ComplexEncoder(json.JSONEncoder):
 #     def default(self, obj):
 #         try:
@@ -53,7 +58,7 @@ def dump(obj):
 #             return str(obj)
 
 
-#Why? because json cannot serialize some special attribute in model object, like _state
+# Why? because json cannot serialize some special attribute in model object, like _state
 # def convert_queryset_to_list(queryset):
 #     result = []
 #     for record in queryset:
@@ -67,7 +72,6 @@ def dump(obj):
 # def get_obj_without_slash(obj):
 #     json_string = json.dumps(obj, skipkeys=True, cls=ComplexEncoder)
 #     return json.loads(json_string)
-
 
 
 # def build_json_obj_success_query(query):

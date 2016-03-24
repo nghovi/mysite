@@ -104,6 +104,8 @@ USE_L10N = True
 
 USE_TZ = False
 
+TIME_FORMAT = "%Y-%m-%dT%H:%M:%S"
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
@@ -145,7 +147,8 @@ REST_FRAMEWORK = {
 
 
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        #TODO DELETE BASIC AUTHENTICATION. It's for web api test only, how the browser can use token authenticate ?
+        # TODO DELETE BASIC AUTHENTICATION. It's for web api test only, how the
+        # browser can use token authenticate ?
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ),
