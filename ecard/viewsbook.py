@@ -79,69 +79,6 @@ class PhraseDetail(generics.RetrieveUpdateDestroyAPIView):
         return JSONResponseOk(data=instance.id, status=status.HTTP_200_OK)
 
 
-# @api_view(['GET', 'POST'])
-# def get_books(request):
-# utils.dump(request.GET)
-#     books = Book.objects.all()
-#     serializer = BookSimpleSerializer(instance=books, many=True)
-#     return Response(serializer.data)
-
-# def search_books(request):
-# utils.dump(request.GET)
-#     author=request.POST.get('author')
-#     name=request.POST.get('name')
-#     comment=request.POST.get('comment')
-
-#     books = Book.objects.all()
-#     if author:
-#         books = books.filter(author__contains=author)
-#     if name:
-#         books = books.filter(name__contains=name)
-#     if comment:
-#         books = books.filter(comment__contains=comment)
-
-#     serializer = BookSerializer(instance=books, many=True)
-#     return JSONResponseOk(serializer.data)
-
-# def get_book_detail(request):
-#     utils.dump(request.POST)
-#     book_id = request.POST.get('id')
-#     if book_id:
-#         book = Book.objects.get(pk=book_id)
-#         serializer = BookSerializer(instance=book)
-#         return JSONResponseOk(serializer.data)
-#     else:
-#         return JSONResponseFailure(serializer.data)
-
-# def edit_book(request):
-#     book_id = request.POST.get('id')
-#     name = request.POST.get('name')
-#     author = request.POST.get('author')
-#     comment = request.POST.get('comment')
-#     iconurl = request.POST.get('iconurl')
-#     url = request.POST.get('link')
-
-#     old_book = Book.objects.get(pk=book_id)
-#     if url != old_book.link.url:
-#         old_book.link.url = url
-#         old_book.link.save()
-#     old_book.name = name
-#     old_book.author = author
-#     old_book.comment = comment
-#     old_book.iconurl = iconurl
-#     old_book.save()
-
-#     serializer = BookSerializer(instance=old_book)
-#     return JSONResponseOk(serializer.data)
-
-# def delete_book(request):
-# utils.dump(request.POST)
-#     book_id = request.POST.get('id')
-#     deleted_book = Book.objects.get(pk=book_id)
-#     deleted_book.delete()
-#     serializer = BookSimpleSerializer(instance=deleted_book)
-#     return JSONResponseOk(serializer.data)
-
 def add_word(request):
     book_id = request.POST.get('book_id')
     syllabus = request.POST.get('new_word')
@@ -155,14 +92,6 @@ def add_word(request):
         phrase.save()
     serializer = WordSerializer(instance=word)
     return JSONResponseOk(serializer.data)
-
-# def delete_word(request):
-#     word_id = request.POST.get('word_id')
-#     word = Word.objects.get(pk=word_id)
-#     word.delete()
-#     response = utils.build_json_obj_success(query=word)
-#     serializer = WordSerializer(instance=word)
-#     return JSONResponseOk(serializer.data)
 
 
 def add_phrase(request):

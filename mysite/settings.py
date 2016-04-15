@@ -152,5 +152,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ),
-    'PAGE_SIZE': 10
+    # 'PAGINATE_BY': None, //Turn off pagination, but json will be returned as array
+    'PAGE_SIZE': 1000,
 }
