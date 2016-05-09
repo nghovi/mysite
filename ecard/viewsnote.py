@@ -30,3 +30,15 @@ class NoteDetail(generics.RetrieveUpdateDestroyAPIView):
         instance = self.get_object()
         self.perform_destroy(instance)
         return JSONResponseOk(data=instance.id, status=status.HTTP_200_OK)
+
+
+def delete_notes(request):
+    # utils.dump(request.POST)
+    # utils.dump(request.POST)
+    note_ids = request.POST.get('ids')
+    note_ids = note_ids.split(NOTE_ID_DELIMITER)
+    for note_id in note_ids:
+        deleted_note = Note.objects.get(pk=note_id)
+        deleted_note.delete()
+
+    return JSONResponseOk(data=note_ids, status=status.HTTP_200_OK)

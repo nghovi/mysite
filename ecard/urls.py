@@ -59,7 +59,7 @@ urlpatterns = [
     url(r'^note/id=(?P<pk>[0-9]+)/$',
         viewsnote.NoteDetail.as_view(), name='get_note'),
     url(r'^notes/$', viewsnote.NoteList.as_view(), name='get_notes'),
-    # url(r'^delete_notes/$', viewsnote.delete_notes, name='delete_notes'),
+    url(r'^delete_notes/$', viewsnote.delete_notes, name='delete_notes'),
     # url(r'^add_note/$', viewsnote.add_note, name='add_note'),
     # url(r'^edit_note/id=(?P<pk>[0-9]+)/$', viewsnote.edit_note, name='edit_note'),
 
